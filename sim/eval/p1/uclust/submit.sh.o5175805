@@ -1,0 +1,6 @@
+libmysqlclient.so.18: cannot open shared object file: No such file or directory
+No module named PyQt4.QtGui
+Leave-one-out test found 596 suspicious sequences; running final test to check them...
+
+Processed 11939 sequences in 7 seconds.
+

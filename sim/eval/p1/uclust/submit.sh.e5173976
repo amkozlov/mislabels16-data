@@ -1,0 +1,9 @@
+/bin/bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+/bin/bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/cm/local/apps/environment-modules/3.2.6//Modules/$MODULE_VERSION/bin/modulecmd bash $*`'
+/bin/bash: error importing function definition for `BASH_FUNC_module'
+bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/cm/local/apps/environment-modules/3.2.6//Modules/$MODULE_VERSION/bin/modulecmd bash $*`'
+bash: error importing function definition for `BASH_FUNC_module'
+ MySQLdb module could not be loaded
+Treeview module could not be loaded
+mv: cannot move `submit.sh.o5173976' to `/hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/uclust/t3/uclust-p1-t32.log': Device or resource busy

@@ -1,0 +1,49 @@
+SATIVA v0.9-41-gcd9a623, released on 2016-01-28. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+SATIVA was called as follows:
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.py -t /gpfs/work/pr58te/di68joy/mislabels/data/slv123_type/sativa_in.tax.genus -s /gpfs/work/pr58te/di68joy/mislabels/data/slv123_type/sativa_in.phy -x BAC -c /gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.cfg -o /gpfs/work/pr58te/di68joy/mislabels/jobs/slv123_type -n slv123_type-thorough-N10 -tmpdir /gpfs/work/pr58te/di68joy/mislabels/tmp -T 28 -p 12345 -N 10
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /gpfs/work/pr58te/di68joy/mislabels/data/slv123_type/sativa_in.tax.genus ...
+
+==> Loading reference alignment from file: /gpfs/work/pr58te/di68joy/mislabels/data/slv123_type/sativa_in.phy ...
+
+===> Validating taxonomy and alignment ...
+
+====> Building a multifurcating tree from taxonomy with 11939 seqs ...
+
+=====> Building the reference alignment ...
+
+======> Saving the outgroup for later re-rooting ...
+
+=======> Resolving multifurcation: choosing the best topology from 10 independent RAxML runs ...
+
+========> Calling RAxML-EPA to obtain branch labels ...
+
+=========> Post-processing the EPA tree (re-rooting, taxonomic labeling etc.) ...
+
+==========> Saving the reference JSON file: /gpfs/work/pr58te/di68joy/mislabels/jobs/slv123_type/slv123_type-thorough-N10.refjson
+
+*** STEP 2: Searching for mislabels ***
+
+Running the leave-one-sequence-out test...
+
+Leave-one-out test identified 279 suspicious sequences; running final EPA test to check them...
+
+Mislabeled sequences by rank:
+Phylum      :	4
+Class       :	1
+Order       :	17
+Family      :	29
+Genus       :	165
+
+Total mislabels: 216 / 1.81 %
+
+Results were saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/slv123_type/slv123_type-thorough-N10.mis
+Execution log was saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/slv123_type/slv123_type-thorough-N10.log
+
+Analysis completed successfully, elapsed time: 158933 seconds (136390s reftree, 22539s leave-one-out)
+

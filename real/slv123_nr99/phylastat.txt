@@ -1,0 +1,160 @@
+No phylum in ranks: Archaea
+
+No phylum in ranks: Archaea
+
+No phylum in ranks: Archaea
+
+No phylum in ranks: Bacteria
+
+No phylum in ranks: Archaea
+
+No phylum in ranks: Archaea
+
+No phylum in ranks: Archaea
+
+Acetothermia	138
+Acidobacteria	13175
+Actinobacteria	51253
+Aenigmarchaeota	292
+Aerophobetes	133
+Aigarchaeota	163
+Aminicenantes	442
+Ancient Archaeal Group(AAG)	21
+Aquificae	344
+Armatimonadetes	876
+Atribacteria	622
+Bacteroidetes	49244
+CKC4	23
+Caldiserica	92
+Calescamantes	3
+Candidate division OP3	401
+Candidate division SR1	172
+Candidate division WS6	152
+Chlamydiae	375
+Chlorobi	963
+Chloroflexi	8805
+Chrysiogenetes	12
+Cloacimonetes	298
+Crenarchaeota	658
+Cyanobacteria	11396
+Deferribacteres	405
+Deinococcus-Thermus	900
+Diapherotrites	37
+Dictyoglomi	24
+Elusimicrobia	331
+Euryarchaeota	12268
+Fibrobacteres	680
+Firmicutes	138552
+Fusobacteria	2077
+GAL08	10
+GOUTA4	31
+Gemmatimonadetes	2026
+Gracilibacteria	556
+Hyd24-12	40
+Hydrogenedentes	491
+JL-ETNP-Z39	35
+Kazan-3B-09	144
+Korarchaeota	53
+LCP-89	30
+LD1-PA38	8
+Latescibacteria	476
+Lentisphaerae	1452
+Marine Hydrothermal Vent Group 1(MHVG-1)	12
+Marine Hydrothermal Vent Group 2(MHVG-2)	2
+Marine Hydrothermal Vent Group(MHVG)	146
+Marinimicrobia (SAR406 clade)	483
+Microgenomates	662
+Miscellaneous Crenarchaeotic Group	3060
+Miscellaneous Euryarchaeotic Group(MEG)	61
+Nanoarchaeota	34
+Nanohaloarchaeota	26
+Nitrospirae	1619
+OC31	8
+Omnitrophica	250
+PAUC34f	111
+Parcubacteria	913
+Parvarchaeota	17
+Planctomycetes	8037
+Proteobacteria	200070
+RsaHF231	5
+S2R-29	3
+SBYG-2791	3
+SHA-109	123
+SM1K20	38
+SM2F11	70
+Saccharibacteria	1203
+Spirochaetae	3838
+Synergistetes	1069
+TA06	294
+TM6	534
+TVG8AR30	2
+Tenericutes	2353
+Thaumarchaeota	5545
+Thermodesulfobacteria	56
+Thermotogae	393
+Verrucomicrobia	3820
+WCHB1-60	76
+WD272	121
+Woesearchaeota (DHVEG-6)	470
+__Other	97098
+aquifer1	6
+aquifer2	3
+pCIRA-13	2
+
+
+No phylum in ranks: Bacteria
+Proteobacteria	4770	0.0238416554206
+Firmicutes	2047	0.0147742363878
+Actinobacteria	579	0.0112968996937
+__Other	538	0.00554079383715
+Bacteroidetes	358	0.00726992120868
+Euryarchaeota	109	0.0088849038148
+Acidobacteria	65	0.00493358633776
+Chloroflexi	58	0.00658716638274
+Cyanobacteria	55	0.00482625482625
+Planctomycetes	43	0.0053502550703
+Thaumarchaeota	32	0.00577096483318
+Verrucomicrobia	21	0.00549738219895
+Crenarchaeota	16	0.0243161094225
+Spirochaetae	13	0.00338718082335
+Fusobacteria	12	0.00577756379393
+TA06	11	0.0374149659864
+Lentisphaerae	10	0.0068870523416
+Gemmatimonadetes	8	0.00394866732478
+Synergistetes	7	0.00654817586529
+Tenericutes	6	0.00254993625159
+Nitrospirae	6	0.00370599135269
+Aquificae	5	0.0145348837209
+Fibrobacteres	5	0.00735294117647
+Miscellaneous Crenarchaeotic Group	4	0.00130718954248
+Cloacimonetes	4	0.0134228187919
+Saccharibacteria	4	0.00332502078138
+Marinimicrobia (SAR406 clade)	4	0.00828157349896
+WD272	3	0.0247933884298
+Armatimonadetes	3	0.00342465753425
+Caldiserica	3	0.0326086956522
+Thermotogae	3	0.00763358778626
+Candidate division OP3	3	0.0074812967581
+WCHB1-60	2	0.0263157894737
+Omnitrophica	2	0.008
+Elusimicrobia	1	0.00302114803625
+Hyd24-12	1	0.025
+SHA-109	1	0.00813008130081
+Chlorobi	1	0.00103842159917
+Parcubacteria	1	0.00109529025192
+Hydrogenedentes	1	0.0020366598778
+Deferribacteres	1	0.00246913580247
+Microgenomates	1	0.00151057401813
+OC31	1	0.125
+Aminicenantes	1	0.00226244343891
+SM1K20	1	0.0263157894737
+aquifer2	1	0.333333333333
+Latescibacteria	1	0.00210084033613
+Aigarchaeota	1	0.00613496932515
+Kazan-3B-09	1	0.00694444444444
+Aerophobetes	1	0.00751879699248
+Chlamydiae	1	0.00266666666667
+Deinococcus-Thermus	1	0.00111111111111
+TM6	1	0.00187265917603
+aquifer1	1	0.166666666667
+PAUC34f	1	0.00900900900901

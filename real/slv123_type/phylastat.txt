@@ -1,0 +1,47 @@
+Acidobacteria	31
+Actinobacteria	2897
+Aquificae	28
+Armatimonadetes	3
+Bacteroidetes	1239
+Caldiserica	1
+Chlamydiae	13
+Chlorobi	13
+Chloroflexi	33
+Chrysiogenetes	4
+Crenarchaeota	51
+Cyanobacteria	16
+Deferribacteres	13
+Deinococcus-Thermus	84
+Dictyoglomi	2
+Elusimicrobia	1
+Euryarchaeota	397
+Fibrobacteres	4
+Firmicutes	2223
+Fusobacteria	39
+Gemmatimonadetes	1
+Lentisphaerae	4
+Nitrospirae	7
+Planctomycetes	23
+Proteobacteria	4413
+Spirochaetae	93
+Synergistetes	23
+Tenericutes	187
+Thaumarchaeota	1
+Thermodesulfobacteria	8
+Thermotogae	44
+Verrucomicrobia	43
+__Other	1167
+
+
+Proteobacteria	81	0.018354860639
+Firmicutes	37	0.0166441745389
+Actinobacteria	27	0.00931998619261
+Bacteroidetes	20	0.0161420500404
+__Other	19	0.0162810625536
+Euryarchaeota	10	0.0251889168766
+Cyanobacteria	3	0.1875
+Crenarchaeota	2	0.0392156862745
+Verrucomicrobia	1	0.0232558139535
+Planctomycetes	1	0.0434782608696
+Tenericutes	1	0.00534759358289
+Thermotogae	1	0.0227272727273

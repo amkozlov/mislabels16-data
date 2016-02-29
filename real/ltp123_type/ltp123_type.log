@@ -1,0 +1,373 @@
+SATIVA v0.9-41-gcd9a623, released on 2016-01-28. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+SATIVA was called as follows:
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.py -t /gpfs/work/pr58te/di68joy/mislabels/data/ltp123/sativa_in.tax.cleaned -s /gpfs/work/pr58te/di68joy/mislabels/data/ltp123/sativa_in.phy -x BAC -c /gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.cfg -o /gpfs/work/pr58te/di68joy/mislabels/jobs/ltp123 -n ltp123-thorough-N10 -tmpdir /gpfs/work/pr58te/di68joy/mislabels/tmp -T 28 -debug -p 12345 -N 10
+
+Running in DEBUG mode, temp files will be saved to: /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /gpfs/work/pr58te/di68joy/mislabels/data/ltp123/sativa_in.tax.cleaned ...
+
+==> Loading reference alignment from file: /gpfs/work/pr58te/di68joy/mislabels/data/ltp123/sativa_in.phy ...
+
+Guessing input format: not fasta
+Guessing input format: not phylip_relaxed
+===> Validating taxonomy and alignment ...
+
+NOTE: Following sequences are identical: VfyDias2, VfyGouge, VfyRutge
+NOTE: Following sequences are identical: VfyPurp2, VfyViol6
+NOTE: Following sequences are identical: UaoAnxif, UaoDolen
+NOTE: Following sequences are identical: VfyGris6, VfyMurin
+NOTE: Following sequences are identical: VfyNiger, VfyOliva
+NOTE: Following sequences are identical: UwaAmeri, UwaFredi
+NOTE: Following sequences are identical: VoqMucog, VoqPhoca
+NOTE: Following sequences are identical: UglAerop, UglStrat
+NOTE: Following sequences are identical: UbwConse, UbwHumid
+NOTE: Following sequences are identical: WojSpuma, WojSunch
+NOTE: Following sequences are identical: VfyAsiat, VfyRhizo
+NOTE: Following sequences are identical: XanArbor, XanHorto
+NOTE: Following sequences are identical: UkuAbort, UkuBCeti, UkuPinni, UkuBSuis
+NOTE: Following sequences are identical: WfeMari2, WfeSaira
+NOTE: Following sequences are identical: VqjCummi, VqjNSoli
+NOTE: Following sequences are identical: VdyFaci2, VdyFaci3
+NOTE: Following sequences are identical: VoqFarci, VoqFort3, VoqSeneg
+NOTE: Following sequences are identical: UkkSpe18, UkkSpe15
+NOTE: Following sequences are identical: UxxElega, UxxRoseo
+NOTE: Following sequences are identical: VfyGeysi, VfyMinut
+NOTE: Following sequences are identical: VyqFulv5, VyqPara2
+NOTE: Following sequences are identical: UkuMelit, UkuNeoto
+NOTE: Following sequences are identical: VoqAbsce, VoqAbsc2
+NOTE: Following sequences are identical: VfyNojir, VfySpor3
+NOTE: Following sequences are identical: UoxSpe16, UoxSpe15
+NOTE: Following sequences are identical: WhzAuran, WhzHybri
+NOTE: Following sequences are identical: VoqSpec4, VoqSeoul
+NOTE: Following sequences are identical: UavAngus, UavRubru
+
+NOTE: Found 32 sequence duplicates
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces gougerotii': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces diastaticus subsp. diastaticus': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces rutgersensis': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces janthinus': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces violaceus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Betaproteobacteria@@Burkholderiales@@Alcaligenaceae@@Achromobacter@@Achromobacter anxifer': 1, 'Bacteria@@Proteobacteria@@Betaproteobacteria@@Burkholderiales@@Alcaligenaceae@@Achromobacter@@Achromobacter dolens': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces murinus': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces griseofuscus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces niger': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces olivaceiscleroticus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Rhizobiaceae@@Ensifer@@Ensifer fredii': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Rhizobiaceae@@Ensifer@@Ensifer americanus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium mucogenicum': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium phocaicum': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Firmicutes@@Bacilli@@Bacillales@@Bacillaceae@@Bacillus@@Bacillus stratosphericus': 1, 'Bacteria@@Firmicutes@@Bacilli@@Bacillales@@Bacillaceae@@Bacillus@@Bacillus aerophilus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Micromonosporineae@@Micromonosporaceae@@Actinoplanes@@Actinoplanes consettensis': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Micromonosporineae@@Micromonosporaceae@@Actinoplanes@@Actinoplanes humidus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Tsukamurellaceae@@Tsukamurella@@Tsukamurella sunchonensis': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Tsukamurellaceae@@Tsukamurella@@Tsukamurella pseudospumae': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces asiaticus': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces rhizosphaericus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Gammaproteobacteria@@Lysobacteriales@@Lysobacteraceae@@Xanthomonas@@Xanthomonas arboricola': 1, 'Bacteria@@Proteobacteria@@Gammaproteobacteria@@Lysobacteriales@@Lysobacteraceae@@Xanthomonas@@Xanthomonas hortorum': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Brucellaceae@@Brucella@@Brucella suis': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Brucellaceae@@Brucella@@Brucella pinnipedialis': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Brucellaceae@@Brucella@@Brucella abortus': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Brucellaceae@@Brucella@@Brucella ceti': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Gammaproteobacteria@@Alteromonadales@@Shewanellaceae@@Shewanella@@Shewanella sairae': 1, 'Bacteria@@Proteobacteria@@Gammaproteobacteria@@Alteromonadales@@Shewanellaceae@@Shewanella@@Shewanella marinintestina': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Nocardiaceae@@Nocardia@@Nocardia soli': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Nocardiaceae@@Nocardia@@Nocardia cummidelens': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Hyphomicrobiaceae@@Hyphomicrobium@@Hyphomicrobium facile subsp. ureaphilum': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Hyphomicrobiaceae@@Hyphomicrobium@@Hyphomicrobium facile subsp. tolerans': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium senegalense': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium farcinogenes': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium houstonense': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Bradyrhizobiaceae@@Bradyrhizobium@@Bradyrhizobium paxllaeri': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Bradyrhizobiaceae@@Bradyrhizobium@@Bradyrhizobium icense': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Bacteroidetes@@Cytophagia@@Cytophagales@@Cytophagaceae@@Flexibacter@@Flexibacter roseolus': 1, 'Bacteria@@Bacteroidetes@@Cytophagia@@Cytophagales@@Cytophagaceae@@Flexibacter@@Flexibacter elegans': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces geysiriensis': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces minutiscleroticus': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Gammaproteobacteria@@Pseudomonadales@@Pseudomonadaceae@@Pseudomonas@@Pseudomonas fulva': 1, 'Bacteria@@Proteobacteria@@Gammaproteobacteria@@Pseudomonadales@@Pseudomonadaceae@@Pseudomonas@@Pseudomonas parafulva': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Brucellaceae@@Brucella@@Brucella melitensis': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhizobiales@@Brucellaceae@@Brucella@@Brucella neotomae': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium abscessus subsp. abscessus': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium abscessus subsp. bolletii': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces spororaveus': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Streptomycineae@@Streptomycetaceae@@Streptomyces@@Streptomyces nojiriensis': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Micrococcineae@@Microbacteriaceae@@Clavibacter@@Clavibacter michiganensis subsp. chilensis': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Micrococcineae@@Microbacteriaceae@@Clavibacter@@Clavibacter michiganensis subsp. californiensis': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Deltaproteobacteria@@Myxococcales@@Cystobacterineae@@Cystobacteraceae@@Stigmatella@@Stigmatella aurantiaca': 1, 'Bacteria@@Proteobacteria@@Deltaproteobacteria@@Myxococcales@@Cystobacterineae@@Cystobacteraceae@@Stigmatella@@Stigmatella hybrida': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium seoulense': 1, 'Bacteria@@Actinobacteria@@Actinobacteria@@Actinobacteridae@@Actinomycetales@@Corynebacterineae@@Mycobacteriaceae@@Mycobacterium@@Mycobacterium paraseoulense': 1}
+
+Ranks sharing duplicates: {'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhodospirillales@@Acetobacteraceae@@Acidiphilium@@Acidiphilium rubrum': 1, 'Bacteria@@Proteobacteria@@Alphaproteobacteria@@Rhodospirillales@@Acetobacteraceae@@Acidiphilium@@Acidiphilium angustum': 1}
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces janthinus
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces violaceus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER2__Streptomyces janthinus
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Bradyrhizobium;Bradyrhizobium paxllaeri
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Bradyrhizobium;Bradyrhizobium icense
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Bradyrhizobiaceae;Bradyrhizobium;__TAXCLUSTER18__Bradyrhizobium paxllaeri
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium senegalense
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium farcinogenes
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium houstonense
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;__TAXCLUSTER17__Mycobacterium senegalense
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Alcaligenaceae;Achromobacter;Achromobacter anxifer
+Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Alcaligenaceae;Achromobacter;Achromobacter dolens
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Betaproteobacteria;Burkholderiales;Alcaligenaceae;Achromobacter;__TAXCLUSTER3__Achromobacter anxifer
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Tsukamurellaceae;Tsukamurella;Tsukamurella sunchonensis
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Tsukamurellaceae;Tsukamurella;Tsukamurella pseudospumae
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Tsukamurellaceae;Tsukamurella;__TAXCLUSTER10__Tsukamurella sunchonensis
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces murinus
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces griseofuscus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER4__Streptomyces murinus
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces niger
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces olivaceiscleroticus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER5__Streptomyces niger
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces gougerotii
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces diastaticus subsp. diastaticus
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces rutgersensis
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER1__Streptomyces gougerotii
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium abscessus subsp. abscessus
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium abscessus subsp. bolletii
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;__TAXCLUSTER23__Mycobacterium abscessus subsp. abscessus
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces geysiriensis
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces minutiscleroticus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER20__Streptomyces geysiriensis
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium seoulense
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium paraseoulense
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;__TAXCLUSTER27__Mycobacterium seoulense
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Nocardiaceae;Nocardia;Nocardia soli
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Nocardiaceae;Nocardia;Nocardia cummidelens
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Nocardiaceae;Nocardia;__TAXCLUSTER15__Nocardia soli
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus;Bacillus stratosphericus
+Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus;Bacillus aerophilus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Firmicutes;Bacilli;Bacillales;Bacillaceae;Bacillus;__TAXCLUSTER8__Bacillus stratosphericus
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Micrococcineae;Microbacteriaceae;Clavibacter;Clavibacter michiganensis subsp. chilensis
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Micrococcineae;Microbacteriaceae;Clavibacter;Clavibacter michiganensis subsp. californiensis
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Micrococcineae;Microbacteriaceae;Clavibacter;__TAXCLUSTER25__Clavibacter michiganensis subsp. chilensis
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces spororaveus
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces nojiriensis
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER24__Streptomyces spororaveus
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Hyphomicrobium;Hyphomicrobium facile subsp. ureaphilum
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Hyphomicrobium;Hyphomicrobium facile subsp. tolerans
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Hyphomicrobiaceae;Hyphomicrobium;__TAXCLUSTER16__Hyphomicrobium facile subsp. ureaphilum
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Acetobacteraceae;Acidiphilium;Acidiphilium rubrum
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Acetobacteraceae;Acidiphilium;Acidiphilium angustum
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhodospirillales;Acetobacteraceae;Acidiphilium;__TAXCLUSTER28__Acidiphilium rubrum
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;Pseudomonas fulva
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;Pseudomonas parafulva
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas;__TAXCLUSTER21__Pseudomonas fulva
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Gammaproteobacteria;Lysobacteriales;Lysobacteraceae;Xanthomonas;Xanthomonas arboricola
+Bacteria;Proteobacteria;Gammaproteobacteria;Lysobacteriales;Lysobacteraceae;Xanthomonas;Xanthomonas hortorum
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Gammaproteobacteria;Lysobacteriales;Lysobacteraceae;Xanthomonas;__TAXCLUSTER12__Xanthomonas arboricola
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Flexibacter;Flexibacter roseolus
+Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Flexibacter;Flexibacter elegans
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Bacteroidetes;Cytophagia;Cytophagales;Cytophagaceae;Flexibacter;__TAXCLUSTER19__Flexibacter roseolus
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Shewanellaceae;Shewanella;Shewanella sairae
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Shewanellaceae;Shewanella;Shewanella marinintestina
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Gammaproteobacteria;Alteromonadales;Shewanellaceae;Shewanella;__TAXCLUSTER14__Shewanella sairae
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae;Ensifer;Ensifer fredii
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae;Ensifer;Ensifer americanus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Rhizobiaceae;Ensifer;__TAXCLUSTER6__Ensifer fredii
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;Brucella melitensis
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;Brucella neotomae
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;__TAXCLUSTER22__Brucella melitensis
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;Brucella suis
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;Brucella pinnipedialis
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;Brucella abortus
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;Brucella ceti
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Alphaproteobacteria;Rhizobiales;Brucellaceae;Brucella;__TAXCLUSTER13__Brucella suis
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Cystobacterineae;Cystobacteraceae;Stigmatella;Stigmatella aurantiaca
+Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Cystobacterineae;Cystobacteraceae;Stigmatella;Stigmatella hybrida
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Proteobacteria;Deltaproteobacteria;Myxococcales;Cystobacterineae;Cystobacteraceae;Stigmatella;__TAXCLUSTER26__Stigmatella aurantiaca
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Micromonosporineae;Micromonosporaceae;Actinoplanes;Actinoplanes consettensis
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Micromonosporineae;Micromonosporaceae;Actinoplanes;Actinoplanes humidus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Micromonosporineae;Micromonosporaceae;Actinoplanes;__TAXCLUSTER9__Actinoplanes consettensis
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium mucogenicum
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;Mycobacterium phocaicum
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Corynebacterineae;Mycobacteriaceae;Mycobacterium;__TAXCLUSTER7__Mycobacterium mucogenicum
+
+
+WARNING: Following taxa share >60% indentical sequences und thus considered indistinguishable:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces asiaticus
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;Streptomyces rhizosphaericus
+For the purpose of mislabels identification, they were merged into one taxon:
+Bacteria;Actinobacteria;Actinobacteria;Actinobacteridae;Actinomycetales;Streptomycineae;Streptomycetaceae;Streptomyces;__TAXCLUSTER11__Streptomyces asiaticus
+
+WARNING: 60 indistinguishable taxa have been merged into 28 clusters.
+
+====> Building a multifurcating tree from taxonomy with 11939 seqs ...
+
+Total nodes in resulting tree: 11939
+=====> Building the reference alignment ...
+
+======> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10_outgr.tre, outgroup size: 449
+=======> Resolving multifurcation: choosing the best topology from 10 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689 -T 28 -f c -s /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10_matrix.afa --no-dup-check -m GTRCAT -n reduce -p 13332
+
+
+Constrained ML inference: 
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10_matrix.afa -g /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10_mfu.tre --no-seq-check -N 10 -m GTRCAT -n mfresolv_ltp123-thorough-N10 -p 326
+
+
+CAT-based logLH of the reference tree: -2089248.053072
+
+========> Calling RAxML-EPA to obtain branch labels ...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10_lblq.fa -t /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10_bfu.tre --no-seq-check -f y --epa-accumulated-threshold 0.999 -G 0.0418795544015 -R /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10.opt -m GTRCAT -n epalbl_ltp123-thorough-N10 -p 26407
+
+=========> Post-processing the EPA tree (re-rooting, taxonomic labeling etc.) ...
+
+
+==========> Checking branch labels ...
+shared rank names before training: set([])
+shared rank names after  training: set(['-'])
+
+==========> Saving the reference JSON file: /gpfs/work/pr58te/di68joy/mislabels/jobs/ltp123/ltp123-thorough-N10.refjson
+
+Calculating the speciation rate...
+
+Writing down the reference file...
+
+*** STEP 2: Searching for mislabels ***
+
+Running the leave-one-sequence-out test...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10.refaln -t /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ref_ltp123-thorough-N10.tre --no-seq-check -f O --epa-accumulated-threshold 0.999 -G 0.0418795544015 -R /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10.opt -m GTRCAT -n l1out_seq_ltp123-thorough-N10 -p 13332
+
+Leave-one-out test identified 445 suspicious sequences; running final EPA test to check them...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/ltp123-thorough-N10.refaln -t /gpfs/work/pr58te/di68joy/mislabels/tmp/ltp123-thorough-N10_1454096121689/final_ref_ltp123-thorough-N10.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.0418795544015 -m GTRCAT -n final_epa_ltp123-thorough-N10 -p 326
+
+Mislabeled sequences by rank:
+Phylum      :	24
+Class       :	21
+Order       :	34
+Suborder    :	8
+Family      :	82
+Genus       :	149
+Species     :	2
+
+Total mislabels: 320 / 2.68 %
+
+Results were saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/ltp123/ltp123-thorough-N10.mis
+Execution log was saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/ltp123/ltp123-thorough-N10.log
+
+Analysis completed successfully, elapsed time: 169468 seconds (147781s reftree, 21683s leave-one-out)
+

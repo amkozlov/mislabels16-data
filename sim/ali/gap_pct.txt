@@ -1,0 +1,46 @@
+cons
+sites: 2969, gappiness: 70.140552 %
+sites: 2938, gappiness: 70.061036 %
+
+flanks
+sites: 1128, gappiness: 96.015123 %
+sites: 1186, gappiness: 96.220324 %
+
+v1
+sites: 368, gappiness: 92.360805 %
+sites: 350, gappiness: 92.476589 %
+
+v2
+sites: 837, gappiness: 87.196204 %
+sites: 848, gappiness: 87.382095 %
+
+v3
+sites: 172, gappiness: 68.239471 %
+sites: 170, gappiness: 68.446958 %
+
+v4
+sites: 281, gappiness: 62.241334 %
+sites: 279, gappiness: 61.661745 %
+
+v5
+sites: 139, gappiness: 59.000037 %
+sites: 143, gappiness: 59.428493 %
+
+v6
+sites: 307, gappiness: 81.469811 %
+sites: 306, gappiness: 81.092941 %
+
+v7
+sites: 267, gappiness: 79.857942 %
+sites: 287, gappiness: 79.911326 %
+
+v8
+sites: 124, gappiness: 58.803825 %
+sites: 123, gappiness: 58.504852 %
+
+v9
+sites: 246, gappiness: 93.867301 %
+sites: 250, gappiness: 93.904448 %
+
+
+

@@ -1,0 +1,168 @@
+SATIVA v0.9-41-gcd9a623, released on 2016-01-28. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+SATIVA was called as follows:
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.py -t /gpfs/work/pr58te/di68joy/mislabels/data/gg13_type/sativa_in.tax.genus -s /gpfs/work/pr58te/di68joy/mislabels/data/gg13_type/sativa_in.phy -x BAC -c /gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.cfg -o /gpfs/work/pr58te/di68joy/mislabels/jobs/gg13_type -n gg13_type-thorough-N10 -tmpdir /gpfs/work/pr58te/di68joy/mislabels/tmp -T 28 -v -p 12345 -N 10
+
+Mislabels search is running with the following parameters:
+ Alignment:                        /gpfs/work/pr58te/di68joy/mislabels/data/gg13_type/sativa_in.phy
+ Taxonomy:                         /gpfs/work/pr58te/di68joy/mislabels/data/gg13_type/sativa_in.tax.genus
+ Output directory:                 /gpfs/work/pr58te/di68joy/mislabels/jobs/gg13_type
+ Job name / output files prefix:   gg13_type-thorough-N10
+ Model of rate heterogeneity:      AUTO
+ Confidence cut-off:               0.000000
+ Number of threads:                28
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /gpfs/work/pr58te/di68joy/mislabels/data/gg13_type/sativa_in.tax.genus ...
+
+==> Loading reference alignment from file: /gpfs/work/pr58te/di68joy/mislabels/data/gg13_type/sativa_in.phy ...
+
+Guessing input format: not fasta
+Guessing input format: not phylip_relaxed
+===> Validating taxonomy and alignment ...
+
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+
+NOTE: Following sequences are identical: VfyDias2, VfyGouge, VfyRutge
+NOTE: Following sequences are identical: VfyPurp2, VfyViol6
+NOTE: Following sequences are identical: VfyGris6, VfyMurin
+NOTE: Following sequences are identical: VfyNiger, VfyOliva
+NOTE: Following sequences are identical: VoqFarci, VoqFort3, VoqSeneg
+NOTE: Following sequences are identical: UwaAmeri, UwaFredi
+NOTE: Following sequences are identical: VoqMucog, VoqPhoca
+NOTE: Following sequences are identical: UglAerop, UglStrat
+NOTE: Following sequences are identical: UbwConse, UbwHumid
+NOTE: Following sequences are identical: WojSpuma, WojSunch
+NOTE: Following sequences are identical: VfyAsiat, VfyRhizo
+NOTE: Following sequences are identical: WfeMari2, WfeSaira
+NOTE: Following sequences are identical: XanArbor, XanHorto
+NOTE: Following sequences are identical: UkuAbort, UkuBCeti, UkuPinni, UkuBSuis
+NOTE: Following sequences are identical: VqjCummi, VqjNSoli
+NOTE: Following sequences are identical: VdyFaci2, VdyFaci3
+NOTE: Following sequences are identical: UxxElega, UxxRoseo
+NOTE: Following sequences are identical: VfyGeysi, VfyMinut
+NOTE: Following sequences are identical: VyqFulv5, VyqPara2
+NOTE: Following sequences are identical: UkuMelit, UkuNeoto
+NOTE: Following sequences are identical: VoqAbsce, VoqAbsc2
+NOTE: Following sequences are identical: VfyNojir, VfySpor3
+NOTE: Following sequences are identical: WhzAuran, WhzHybri
+NOTE: Following sequences are identical: VoqSpec4, VoqSeoul
+NOTE: Following sequences are identical: UavAngus, UavRubru
+
+NOTE: Found 29 sequence duplicates
+====> Building a multifurcating tree from taxonomy with 10635 seqs ...
+
+Total nodes in resulting tree: 10635
+=====> Building the reference alignment ...
+
+======> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10_outgr.tre, outgroup size: 379
+=======> Resolving multifurcation: choosing the best topology from 10 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689 -T 28 -f c -s /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10_matrix.afa --no-dup-check -m GTRCAT -n reduce --verbose -p 13332
+
+
+Constrained ML inference: 
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10_matrix.afa.reduced -g /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10_mfu.tre --no-seq-check -N 10 -m GTRCAT -n mfresolv_gg13_type-thorough-N10 --verbose -p 326
+
+
+CAT-based logLH of the reference tree: -1833804.619980
+
+========> Calling RAxML-EPA to obtain branch labels ...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10_lblq.fa -t /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10_bfu.tre --no-seq-check -f y --epa-accumulated-threshold 0.999 -G 0.0470145745181 -R /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10.opt -m GTRCAT -n epalbl_gg13_type-thorough-N10 --verbose -p 26407
+
+=========> Post-processing the EPA tree (re-rooting, taxonomic labeling etc.) ...
+
+
+==========> Checking branch labels ...
+shared rank names before training: set([])
+shared rank names after  training: set(['-'])
+
+==========> Saving the reference JSON file: /gpfs/work/pr58te/di68joy/mislabels/jobs/gg13_type/gg13_type-thorough-N10.refjson
+
+Calculating the speciation rate...
+
+Writing down the reference file...
+
+*** STEP 2: Searching for mislabels ***
+
+Running the leave-one-sequence-out test...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10.refaln -t /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/ref_gg13_type-thorough-N10.tre --no-seq-check -f O --epa-accumulated-threshold 0.999 -G 0.0470145745181 -R /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10.opt -m GTRCAT -n l1out_seq_gg13_type-thorough-N10 --verbose -p 13332
+
+Leave-one-out test identified 40 suspicious sequences; running final EPA test to check them...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/gg13_type-thorough-N10.refaln -t /gpfs/work/pr58te/di68joy/mislabels/tmp/gg13_type-thorough-N10_1454096121689/final_ref_gg13_type-thorough-N10.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.0470145745181 -m GTRCAT -n final_epa_gg13_type-thorough-N10 --verbose -p 326
+
+Mislabeled sequences by rank:
+Class       :	1
+Order       :	11
+Family      :	12
+Genus       :	9
+
+Total mislabels: 33 / 0.31 %
+
+Results were saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/gg13_type/gg13_type-thorough-N10.mis
+Execution log was saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/gg13_type/gg13_type-thorough-N10.log
+
+Analysis completed successfully, elapsed time: 123327 seconds (104992s reftree, 18332s leave-one-out)
+

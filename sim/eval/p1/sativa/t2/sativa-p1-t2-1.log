@@ -1,0 +1,36 @@
+SATIVA v0.9-31-gbc16723, released on 2015-11-09. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Mislabels search is running with the following parameters:
+ Reference:                        /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t2/sativa-p1-t2-1.refjson
+ EPA jplace file:                  /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t2/sativa-p1-t2-1.l1out_seq.jplace
+ Output directory:                 /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t2
+ Job name / output files prefix:   sativa5-p1-t2-1
+ Model of rate heterogeneity:      AUTO
+ P-value for branch length test:   0
+ Number of threads:                16
+
+Running the leave-one-sequence-out test...
+
+Loaded 11939 placements from /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t2/sativa-p1-t2-1.l1out_seq.jplace
+
+Leave-one-out test identified 186 suspicious sequences; running final EPA test to check them...
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p1-t2-1_1448211222477 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p1-t2-1_1448211222477/sativa5-p1-t2-1.refaln -t /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p1-t2-1_1448211222477/final_ref_sativa5-p1-t2-1.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.0418795544015 -m GTRCAT -n final_epa_sativa5-p1-t2-1 --no-bfgs --verbose -p 10706
+
+Mislabeled sequences by rank:
+Phylum      :	5
+Class       :	8
+Order       :	15
+Suborder    :	2
+Family      :	38
+Genus       :	42
+Species     :	24
+
+Total mislabels: 134 / 1.12 %
+
+Results were saved to: /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t2/sativa5-p1-t2-1.mis
+Execution log was saved to: /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t2/sativa5-p1-t2-1.log
+
+Analysis completed successfully, elapsed time: 805 seconds (0s reftree, 800s leave-one-out)
+

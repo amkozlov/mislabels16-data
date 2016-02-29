@@ -1,0 +1,38 @@
+SATIVA v0.9-31-gbc16723, released on 2015-11-09. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Mislabels search is running with the following parameters:
+ Reference:                        gg_nr99-fast2.refjson
+ EPA jplace file:                  jplace
+ Output directory:                 /hits/fast/sco/kozlov/mislabels/paper_v2/real/gg_nr99
+ Job name / output files prefix:   gg13_otu99_v2
+ Model of rate heterogeneity:      AUTO
+ P-value for branch length test:   0
+ Number of threads:                32
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/tmp/gg13_otu99_v2_1448243997952
+
+Running the leave-one-sequence-out test...
+
+Loaded 203452 placements from jplace/*.jplace
+
+Leave-one-out test identified 718 suspicious sequences; running final EPA test to check them...
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/tmp/gg13_otu99_v2_1448243997952 -T 32 -s /hits/sco/kozlov/mislabels/paper_v2/tmp/gg13_otu99_v2_1448243997952/gg13_otu99_v2.refaln -t /hits/sco/kozlov/mislabels/paper_v2/tmp/gg13_otu99_v2_1448243997952/final_ref_gg13_otu99_v2.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.00245758213239 -m GTRCAT -n final_epa_gg13_otu99_v2 --no-bfgs --verbose -p 30762
+
+Mislabeled sequences by rank:
+Phylum      :	37
+Class       :	28
+Order       :	127
+Suborder    :	1
+Family      :	162
+Genus       :	151
+Species     :	99
+
+Total mislabels: 605 / 0.30 %
+
+Results were saved to: /hits/fast/sco/kozlov/mislabels/paper_v2/real/gg_nr99/gg13_otu99_v2.mis
+Execution log was saved to: /hits/fast/sco/kozlov/mislabels/paper_v2/real/gg_nr99/gg13_otu99_v2.log
+
+Analysis completed successfully, elapsed time: 6295 seconds (0s reftree, 6187s leave-one-out)
+

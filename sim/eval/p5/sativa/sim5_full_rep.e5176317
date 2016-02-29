@@ -1,0 +1,40 @@
+sh: module: line 1: syntax error: unexpected end of file
+sh: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+SATIVA v0.9-31-gbc16723, released on 2015-11-09. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Mislabels search is running with the following parameters:
+ Reference:                        /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p5/sativa/t2/sativa-p5-t2-1.refjson
+ EPA jplace file:                  /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p5/sativa/t2/sativa-p5-t2-1.l1out_seq.jplace
+ Output directory:                 /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p5/sativa5/t2
+ Job name / output files prefix:   sativa5-p5-t2-1
+ Model of rate heterogeneity:      AUTO
+ P-value for branch length test:   0
+ Number of threads:                16
+
+Running the leave-one-sequence-out test...
+
+Loaded 11939 placements from /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p5/sativa/t2/sativa-p5-t2-1.l1out_seq.jplace
+
+Leave-one-out test identified 915 suspicious sequences; running final EPA test to check them...
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p5-t2-1_1448220401768 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p5-t2-1_1448220401768/sativa5-p5-t2-1.refaln -t /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p5-t2-1_1448220401768/final_ref_sativa5-p5-t2-1.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.0418795544015 -m GTRCAT -n final_epa_sativa5-p5-t2-1 --no-bfgs --verbose -p 31182
+
+Mislabeled sequences by rank:
+Phylum      :	29
+Class       :	37
+Order       :	73
+Suborder    :	21
+Family      :	191
+Genus       :	227
+Species     :	109
+
+Total mislabels: 687 / 5.75 %
+
+Results were saved to: /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p5/sativa5/t2/sativa5-p5-t2-1.mis
+Execution log was saved to: /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p5/sativa5/t2/sativa5-p5-t2-1.log
+
+Analysis completed successfully, elapsed time: 1341 seconds (0s reftree, 1336s leave-one-out)
+

@@ -1,0 +1,283 @@
+
+Mislabeled sequences:
+
+;SeqID	MislabeledLevel	OriginalLabel	ProposedLabel	Confidence	OriginalTaxonomyPath	ProposedTaxonomyPath	PerRankConfidence
+
+VnjHydro	Phylum	p__Actinobacteria	p__Proteobacteria	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Lechevalieria;s__Lechevalieria_aerocolonigenes	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Microbulbifer;s__Microbulbifer_mangrovi	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VdxAlgor	Phylum	p__Proteobacteria	p__Bacteroidetes	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Marinobacterium;s__Marinobacterium_nitratireducens	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Hymenobacter	1.000;1.000;1.000;1.000;1.000;1.000
+
+VimCarno	Phylum	p__Actinobacteria	p__Firmicutes	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__Actinomyces_timonensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Leuconostoc	1.000;1.000;1.000;1.000;1.000;1.000
+
+HbllLimi	Phylum	p__Crenarchaeota	p__Euryarchaeota	1.000	k__Archaea;p__Crenarchaeota;c__Thermoprotei;o__Sulfolobales;f__Sulfolobaceae;g__Sulfolobus;s__Sulfolobus_solfataricus	k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Haloferacales;f__Haloferacaceae;g__Halobellus;s__Halobellus_rarus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VfyPulve	Phylum	p__Chloroflexi	p__Actinobacteria	1.000	k__Bacteria;p__Chloroflexi;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Longilinea;s__Longilinea_arvoryzae	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces	1.000;1.000;1.000;1.000;1.000;1.000
+
+VyqSpec9	Class	c__Alphaproteobacteria	c__Gammaproteobacteria	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Neokomagataea;s__Neokomagataea_thailandica	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas	1.000;1.000;1.000;1.000;1.000;1.000
+
+WfbFlexi	Class	c__Alphaproteobacteria	c__Gammaproteobacteria	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Thalassospira;s__Thalassospira_povalilytica	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas	1.000;1.000;1.000;1.000;1.000;0.510
+
+VpuNSoli	Class	c__Flavobacteriia	c__Sphingobacteriia	1.000	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Lutibacter;s__Lutibacter_flavus	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Niabella	1.000;1.000;1.000;1.000;1.000;1.000
+
+VflSpeci	Class	c__Gammaproteobacteria	c__Alphaproteobacteria	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Lysobacteriales;f__Lysobacteraceae;g__Lysobacter;s__Lysobacter_caeni	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Kaistia	1.000;1.000;1.000;1.000;1.000;1.000
+
+UxtSpe16	Class	c__Cytophagia	c__Flavobacteriia	1.000	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Cyclobacterium;s__Cyclobacterium_caenipelagi	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Flavobacterium;s__Flavobacterium_antarcticum	1.000;1.000;1.000;1.000;1.000;1.000;0.507
+
+HlmArcis	Class	c__Thermococci	c__Halobacteria	1.000	k__Archaea;p__Euryarchaeota;c__Thermococci;o__Thermococcales;f__Thermococcaceae;g__Thermococcus;s__Thermococcus_litoralis	k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Haloferacales;f__Haloferacaceae;g__Halorubrum	1.000;1.000;1.000;1.000;1.000;1.000
+
+VmtRhizo	Class	c__Gammaproteobacteria	c__Betaproteobacteria	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Lysobacteriales;f__Lysobacteraceae;g__Xanthomonas;s__Xanthomonas_fragariae	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Methylophilales;f__Methylophilaceae;g__Methylophilus	1.000;1.000;1.000;1.000;1.000;1.000
+
+WcaAeria	Order	o__Geodermatophilales	o__Actinomycetales	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Geodermatophilales;f__Geodermatophilaceae;g__Geodermatophilus;s__Geodermatophilus_terrae	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Rothia;s__Rothia_dentocariosa	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VtwMinat	Order	o__Actinomycetales	o__Solirubrobacterales	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharomonospora;s__Saccharomonospora_halophila	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Solirubrobacterales;f__Patulibacteraceae;g__Patulibacter;s__Patulibacter_ginsengiterrae	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VsrChibe	Order	o__Lactobacillales	o__Bacillales	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_rennini	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus	1.000;1.000;1.000;1.000;1.000;1.000
+
+VmwBact2	Order	o__Rhodobacterales	o__Rhizobiales	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Roseivivax;s__Roseivivax_pacificus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Beijerinckiaceae;g__Methyloferula;s__Methyloferula_stellata	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+VidViola	Order	o__Bifidobacteriales	o__Actinomycetales	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__Bifidobacterium_thermacidophilum_subsp._thermacidophilum	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Lentzea;s__Lentzea_flaviverrucosa	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VcfOreni	Order	o__Clostridiales	o__Halanaerobiales	1.000	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Helcococcus;g__Helcococcus;s__Helcococcus_kunzii	k__Bacteria;p__Firmicutes;c__Clostridia;o__Halanaerobiales;f__Halanaerobiaceae	1.000;1.000;1.000;1.000;0.510
+
+UzqHalop	Order	o__Lactobacillales	o__Bacillales	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_floricola	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales	1.000;1.000;1.000;1.000
+
+UszThioa	Order	o__Desulfobacterales	o__Desulfovibrionales	1.000	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobacteraceae;g__Desulfatirhabdium;s__Desulfatirhabdium_butyrativorans	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfonatronaceae;g__Desulfonatronum	1.000;1.000;1.000;1.000;1.000;1.000
+
+UmrNiist	Order	o__Rhizobiales	o__Rhodobacterales	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhodobiaceae;g__Tepidamorphus;s__Tepidamorphus_gemmatus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Paracoccus;s__Paracoccus_marinus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UbjLuteo	Order	o__Geodermatophilales	o__Actinomycetales	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Geodermatophilales;f__Geodermatophilaceae;g__Blastococcus;s__Blastococcus_saxobsidens	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Thermomonosporaceae;g__Actinomadura;s__Actinomadura_verrucosospora	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+HmnSpec2	Order	o__Natrialbales	o__Haloferacales	1.000	k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Natrialbales;f__Natrialbaceae;g__Natrialba;s__Natrialba_asiatica	k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Haloferacales;f__Haloferacaceae;g__Halolamina;s__Halolamina_rubra	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VfyCine5	Order	o__Acidimicrobiales	o__Actinomycetales	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Acidimicrobiales;f__Acidimicrobiaceae;g__Ferrimicrobium;s__Ferrimicrobium_acidiphilum	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces	1.000;1.000;1.000;1.000;1.000;1.000
+
+VlnSpec4	Order	o__Neisseriales	o__Burkholderiales	1.000	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Gulbenkiania;s__Gulbenkiania_indica	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Massilia;s__Massilia_namucuonensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UwrSibir	Order	o__Lactobacillales	o__Bacillales	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Trichococcus;s__Trichococcus_flocculiformis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Exiguobacterium;g__Exiguobacterium	1.000;1.000;1.000;1.000;1.000;1.000
+
+UkfAlime	Order	o__Bifidobacteriales	o__Actinomycetales	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bombiscardovia;s__Bombiscardovia_coagulans	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Dermabacteraceae;g__Brachybacterium;s__Brachybacterium_fresconis	1.000;1.000;1.000;1.000;1.000;1.000;0.509
+
+VfyMashu	Suborder	c__Acidimicrobineae	c__Actinobacteria	1.000	k__Bacteria;p__Actinobacteria;c__Acidimicrobineae;o__Aciditerrimonas;f__Aciditerrimonas;g__Aciditerrimonas;s__Aciditerrimonas_ferrireducens	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_mobaraensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+WphQiuia	Suborder	c__Acidimicrobineae	c__Actinobacteria	1.000	k__Bacteria;p__Actinobacteria;c__Acidimicrobineae;o__Aciditerrimonas;f__Aciditerrimonas;g__Aciditerrimonas;s__Aciditerrimonas_ferrireducens	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Verrucosispora	1.000;1.000;1.000;1.000;1.000;0.510
+
+UayFerri	Suborder	c__Acidimicrobineae	c__Actinobacteria	0.955	k__Bacteria;p__Actinobacteria;c__Acidimicrobineae;o__Aciditerrimonas;f__Aciditerrimonas;g__Aciditerrimonas;s__Aciditerrimonas_ferrireducens	k__Bacteria;p__Actinobacteria;c__Actinobacteria	1.000;0.955;0.955
+
+UxuThalp	Family	f__Chitinophagaceae	f__Sphingobacteriaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Niabella;s__Niabella_drilacis	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Sphingobacterium;s__Sphingobacterium_changzhouense	1.000;1.000;1.000;1.000;1.000;1.000;0.504
+
+WlzRossi	Family	f__Cytophagaceae	f__Flammeovirgaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Runella;s__Runella_limosa	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Flammeovirgaceae	1.000;1.000;1.000;1.000;1.000
+
+WidSpec4	Family	f__Carnobacteriaceae	f__Streptococcaceae	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Alkalibacterium;s__Alkalibacterium_olivapovliticus	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1.000;1.000;1.000;1.000;1.000;1.000
+
+WguHaloa	Family	f__Erythrobacteraceae	f__Sphingomonadaceae	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Erythrobacteraceae;g__Porphyrobacter;s__Porphyrobacter_cryptus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas	1.000;1.000;1.000;1.000;1.000;1.000
+
+WbeColu2	Family	f__Cryomorphaceae	f__Flavobacteriaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Phaeocystidibacter;s__Phaeocystidibacter_luteus	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Riemerella;s__Riemerella_columbina	1.000;1.000;1.000;1.000;1.000;0.999;0.508
+
+VziAntar	Family	f__Alteromonadaceae	f__Psychromonadaceae	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Alteromonas;s__Alteromonas_stellipolaris	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Psychromonadaceae;g__Psychromonas	1.000;1.000;1.000;1.000;1.000;1.000
+
+VyqToyot	Family	f__Moraxellaceae	f__Pseudomonadaceae	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella;s__Moraxella_boevrei	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas	1.000;1.000;1.000;1.000;1.000;1.000
+
+VxnAcidi	Family	f__Mycobacteriaceae	f__Propionibacteriaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium_conceptionense	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Propionibacteriaceae;g__Propionibacterium;s__Propionibacterium_cyclohexanicum	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VxhPleur	Family	f__Marinilabiliaceae	f__Prevotellaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Marinilabiliaceae;g__Marinilabilia;s__Marinilabilia_salmonicolor	k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella	1.000;1.000;1.000;1.000;1.000;1.000
+
+VvoLumi5	Family	f__Thorselliaceae	f__Enterobacteriaceae	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Thorselliaceae;g__Thorsellia;s__Thorsellia_kandunguensis	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Photorhabdus	1.000;1.000;1.000;1.000;1.000;1.000
+
+VpuSpeci	Family	f__Sphingobacteriaceae	f__Chitinophagaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Mucilaginibacter;s__Mucilaginibacter_soli	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Niabella	1.000;1.000;1.000;1.000;1.000;1.000
+
+VniCoral	Family	f__Microbacteriaceae	f__Streptosporangiaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Microbacterium;s__Microbacterium_indicum	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptosporangiaceae;g__Microbispora	1.000;1.000;1.000;1.000;1.000;1.000
+
+VmyTrich	Family	f__Brucellaceae	f__Methylocystaceae	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Brucellaceae;g__Ochrobactrum;s__Ochrobactrum_ciceri	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Methylocystaceae;g__Methylosinus;s__Methylosinus_sporium	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+VgySpec2	Family	f__Staphylococcaceae	f__Thermoactinomycetaceae	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus;s__Staphylococcus_caprae	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Thermoactinomycetaceae;g__Laceyella;s__Laceyella_putida	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+VgoBacte	Family	f__Paenibacillaceae	f__Thermoactinomycetaceae	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus;s__Paenibacillus_massiliensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Thermoactinomycetaceae	1.000;1.000;1.000;1.000;1.000
+
+VedAbyss	Family	f__Pseudoalteromonadaceae	f__Idiomarinaceae	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas_mariniglutinosa	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Idiomarinaceae;g__Idiomarina	1.000;1.000;1.000;1.000;1.000;1.000
+
+VdsDeflu	Family	f__Burkholderiaceae	f__Comamonadaceae	1.000	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia;s__Burkholderia_endofungorum	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Hydrogenophaga	1.000;1.000;1.000;1.000;1.000;1.000
+
+UqvBadiu	Family	f__Myxococcaceae	f__Cystobacteraceae	1.000	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__Myxococcaceae;g__Corallococcus;s__Corallococcus_exiguus	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__Cystobacteraceae;g__Cystobacter;s__Cystobacter_ferrugineus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UqtSpec2	Family	f__Rubrivirga	f__Cyclobacteriaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Rubrivirga;g__Rubrivirga;s__Rubrivirga_marina	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Cyclobacterium;s__Cyclobacterium_lianum	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UqtAmurs	Family	f__Cytophagaceae	f__Cyclobacteriaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Microscilla;s__Microscilla_marina	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Cyclobacterium;s__Cyclobacterium_qasimii	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UpbCellu	Family	f__Proteiniborus	f__Clostridiaceae	1.000	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Proteiniborus;g__Proteiniborus;s__Proteiniborus_ethanoligenes	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium_papyrosolvens	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UgsSipho	Family	f__Legionellaceae	f__Coxiellaceae	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae;g__Legionella;s__Legionella_adelaidensis	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Coxiellaceae;g__Diplorickettsia;s__Diplorickettsia_massiliensis	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UdlConso	Family	f__Paenibacillaceae	f__Alicyclobacillaceae	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Brevibacillus;s__Brevibacillus_parabrevis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Alicyclobacillaceae;g__Effusibacillus;s__Effusibacillus_pohliae	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UbwNippo	Family	f__Streptomycetaceae	f__Micromonosporaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_cocklensis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Actinoplanes	1.000;1.000;1.000;1.000;1.000;1.000
+
+MtfFormo	Family	f__Methanoregulaceae	f__Methanomicrobiaceae	1.000	k__Archaea;p__Euryarchaeota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanoregulaceae;g__Methanoregula;s__Methanoregula_boonei	k__Archaea;p__Euryarchaeota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanomicrobiaceae;g__Methanofollis	1.000;1.000;1.000;1.000;1.000;0.561
+
+VfyEdere	Family	f__Catenulisporaceae	f__Streptomycetaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Catenulisporaceae;g__Catenulispora;s__Catenulispora_graminis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces	1.000;1.000;1.000;1.000;1.000;1.000
+
+WnlCruno	Family	f__Francisellaceae	f__Piscirickettsiaceae	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Thiotrichales;f__Francisellaceae;g__Francisella;s__Francisella_tularensis_subsp._novicida	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Thiotrichales;f__Piscirickettsiaceae;g__Thiomicrospira	1.000;1.000;1.000;1.000;1.000;1.000
+
+VdxGelip	Family	f__Cyclobacteriaceae	f__Cytophagaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Echinicola;s__Echinicola_vietnamensis	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Hymenobacter;s__Hymenobacter_yonginensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VoqArosi	Family	f__Pseudonocardiaceae	f__Mycobacteriaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharothrix;s__Saccharothrix_australiensis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium_intracellulare	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UhpNico2	Family	f__Streptosporangiaceae	f__Micrococcaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptosporangiaceae;g__Nonomuraea;s__Nonomuraea_endophytica	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Arthrobacter;s__Arthrobacter_ilicis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VqjLijia	Family	f__Promicromonosporaceae	f__Nocardiaceae	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Promicromonosporaceae;g__Myceligenerans;s__Myceligenerans_xiligouense	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardiaceae;g__Nocardia	1.000;1.000;1.000;1.000;1.000;1.000
+
+WpdAtypi	Family	f__Acidaminococcaceae	f__Veillonellaceae	1.000	k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Acidaminococcaceae;g__Acidaminococcus;s__Acidaminococcus_intestini	k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Veillonella	1.000;1.000;1.000;1.000;1.000;1.000
+
+UooSp212	Family	f__Cryomorphaceae	f__Flavobacteriaceae	1.000	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Salinirepens;s__Salinirepens_amamiensis	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Chryseobacterium;s__Chryseobacterium_vrystaatense	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VbyAquam	Family	f__Hahellaceae	f__Halomonadaceae	0.999	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Hahellaceae;g__Hahella;s__Hahella_antarctica	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Halomonadaceae;g__Halomonas	0.999;0.999;0.999;0.999;0.999;0.999
+
+VzcDokdo	Family	f__Rhodanobacteraceae	f__Lysobacteraceae	0.999	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Lysobacteriales;f__Rhodanobacteraceae;g__Dyella;s__Dyella_japonica	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Lysobacteriales;f__Lysobacteraceae;g__Pseudoxanthomonas	0.999;0.999;0.999;0.999;0.999;0.999
+
+VxhEnoec	Family	f__Porphyromonadaceae	f__Prevotellaceae	0.999	k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Barnesiella;s__Barnesiella_intestinihominis	k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella;s__Prevotella_oralis	0.999;0.999;0.999;0.999;0.999;0.999;0.509
+
+VxzEthan	Family	f__Proteiniborus	f__Clostridiaceae	0.857	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Proteiniborus;g__Proteiniborus;s__Proteiniborus_ethanoligenes	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae	0.999;0.999;0.999;0.999;0.857
+
+NonBac28	Family	f__Rubrivirga	f__Rhodothermaceae	0.510	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Rubrivirga;g__Rubrivirga;s__Rubrivirga_marina	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Rhodothermaceae	1.000;1.000;1.000;1.000;0.510
+
+UfcSubf4	Family	f__Mycobacteriaceae	f__Hoyosella	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Mycobacteriaceae	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Hoyosella;g__Hoyosella;s__Hoyosella_altamirensis	0.999;0.999;0.999;0.999;0.510;0.510;0.510
+
+VfyIpomo	Genus	g__Kitasatospora	g__Streptomyces	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Kitasatospora;s__Kitasatospora_cochleata	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces	1.000;1.000;1.000;1.000;1.000;1.000
+
+VpsAethi	Genus	g__Micrococcus	g__Nesterenkonia	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Micrococcus;s__Micrococcus_lylae	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Nesterenkonia	1.000;1.000;1.000;1.000;1.000;1.000
+
+XnrSpec2	Genus	g__Yersinia	g__Xenorhabdus	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Yersinia;s__Yersinia_pseudotuberculosis	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Xenorhabdus;s__Xenorhabdus_griffiniae	1.000;1.000;1.000;1.000;1.000;1.000;0.501
+
+WssBenin	Genus	g__Leuconostoc	g__Weissella	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Leuconostoc;s__Leuconostoc_lactis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Weissella	1.000;1.000;1.000;1.000;1.000;1.000
+
+WkkDuode	Genus	g__Phycicoccus	g__Tetrasphaera	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Intrasporangiaceae;g__Phycicoccus;s__Phycicoccus_ginsenosidimutans	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Intrasporangiaceae;g__Tetrasphaera	1.000;1.000;1.000;1.000;1.000;1.000
+
+WidSpec3	Genus	g__Lactococcus	g__Streptococcus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Lactococcus;s__Lactococcus_fujiensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__Streptococcus_ovis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+WidSEqu3	Genus	g__Faecalicoccus	g__Streptococcus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Faecalicoccus;s__Faecalicoccus_acidiformans	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__Streptococcus_equi_subsp._ruminatorum	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+WgtSpec9	Genus	g__Sphingomonas	g__Sphingobium	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas;s__Sphingomonas_pseudosanguinis	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingobium	1.000;1.000;1.000;1.000;1.000;1.000
+
+WbwGila2	Genus	g__Gluconobacter	g__Roseomonas	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Gluconobacter;s__Gluconobacter_cerinus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Roseomonas	1.000;1.000;1.000;1.000;1.000;1.000
+
+VudHepar	Genus	g__Sphingobacterium	g__Pedobacter	1.000	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Sphingobacterium;s__Sphingobacterium_nematocida	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter	1.000;1.000;1.000;1.000;1.000;1.000
+
+VsrPSoli	Genus	g__Brevibacillus	g__Paenibacillus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Brevibacillus;s__Brevibacillus_limnophilus	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus	1.000;1.000;1.000;1.000;1.000;1.000
+
+VsrAgari	Genus	g__Cohnella	g__Paenibacillus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Cohnella;s__Cohnella_thailandensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus	1.000;1.000;1.000;1.000;1.000;1.000
+
+VlzRobin	Genus	g__Phyllobacterium	g__Mesorhizobium	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Phyllobacteriaceae;g__Phyllobacterium;s__Phyllobacterium_ifriqiyense	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Phyllobacteriaceae;g__Mesorhizobium	1.000;1.000;1.000;1.000;1.000;1.000
+
+VheLMali	Genus	g__Pediococcus	g__Lactobacillus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Pediococcus;s__Pediococcus_siamensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_cacaonum	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VfdHalot	Genus	g__Staphylococcus	g__Jeotgalicoccus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus;s__Staphylococcus_sciuri_subsp._carnaticus	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Jeotgalicoccus	1.000;1.000;1.000;1.000;1.000;1.000
+
+UpbAkagi	Genus	g__Romboutsia	g__Clostridium	1.000	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Romboutsia;s__Romboutsia_sedimentorum	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium	1.000;1.000;1.000;1.000;1.000;1.000
+
+UnsAlami	Genus	g__Ensifer	g__Rhizobium	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Ensifer;s__Ensifer_meliloti	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Rhizobium	1.000;1.000;1.000;1.000;1.000;1.000
+
+UlaSpec6	Genus	g__Polynucleobacter	g__Burkholderia	1.000	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Polynucleobacter;s__Polynucleobacter_cosmopolitanus	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia;s__Burkholderia_cepacia	1.000;1.000;1.000;1.000;1.000;1.000;0.509
+
+UlaSpe11	Genus	g__Cupriavidus	g__Burkholderia	1.000	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Cupriavidus;s__Cupriavidus_campinensis	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia	1.000;1.000;1.000;1.000;1.000;1.000
+
+UjpTher3	Genus	g__Scardovia	g__Bifidobacterium	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Scardovia;s__Scardovia_inopinata	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium;s__Bifidobacterium_thermacidophilum_subsp._thermacidophilum	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UbeAven2	Genus	g__Hydrogenophaga	g__Acidovorax	1.000	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Hydrogenophaga;s__Hydrogenophaga_bisanensis	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Acidovorax	1.000;1.000;1.000;1.000;1.000;1.000
+
+WbwSpe31	Genus	g__Acidiphilium	g__Roseomonas	1.000	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Acidiphilium;s__Acidiphilium_cryptum	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Roseomonas	1.000;1.000;1.000;1.000;1.000;1.000
+
+VbtSalex	Genus	g__Thiorhodococcus	g__Halochromatium	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Chromatiales;f__Chromatiaceae;g__Thiorhodococcus;s__Thiorhodococcus_mannitoliphagus	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Chromatiales;f__Chromatiaceae;g__Halochromatium;s__Halochromatium_roseum	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+WifSubro	Genus	g__Nonomuraea	g__Streptosporangium	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptosporangiaceae;g__Nonomuraea;s__Nonomuraea_ferruginea	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptosporangiaceae;g__Streptosporangium	1.000;1.000;1.000;1.000;1.000;1.000
+
+UsfHalot	Genus	g__Desulfatirhabdium	g__Desulfobacter	1.000	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobacteraceae;g__Desulfatirhabdium;s__Desulfatirhabdium_butyrativorans	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobacteraceae;g__Desulfobacter;s__Desulfobacter_latus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VysBaben	Genus	g__Saccharopolyspora	g__Pseudonocardia	1.000	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharopolyspora;s__Saccharopolyspora_lacisalsi	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Pseudonocardia	1.000;1.000;1.000;1.000;1.000;1.000
+
+VheSpe11	Genus	g__Pediococcus	g__Lactobacillus	1.000	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Pediococcus;s__Pediococcus_claussenii	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus	1.000;1.000;1.000;1.000;1.000;1.000
+
+UlaMimos	Genus	g__Cupriavidus	g__Burkholderia	1.000	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Cupriavidus;s__Cupriavidus_necator	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia	1.000;1.000;1.000;1.000;1.000;1.000
+
+VibGigan	Genus	g__Echinimonas	g__Vibrio	1.000	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Echinimonas;s__Echinimonas_agarilytica	k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Vibrio	1.000;1.000;1.000;1.000;1.000;1.000
+
+WbdTamur	Genus	g__Orientia	g__Rickettsia	0.932	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rickettsiales;f__Rickettsiaceae;g__Orientia;s__Orientia_tsutsugamushi	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rickettsiales;f__Rickettsiaceae;g__Rickettsia	1.000;1.000;1.000;1.000;1.000;0.932
+
+VnqMarin	Genus	g__Microscilla	g__Flexibacter	0.840	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Microscilla;s__Microscilla_marina	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Flexibacter	1.000;1.000;1.000;1.000;1.000;0.840
+
+WjuGemma	Genus	g__Tepidamorphus	g__Lutibaculum	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhodobiaceae;g__Tepidamorphus;s__Tepidamorphus_gemmatus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhodobiaceae;g__Lutibaculum;s__Lutibaculum_baratangense	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+WiaOryza	Genus	g__Streptomyces	g__Streptacidiphilus	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_yanglinensis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptacidiphilus	1.000;1.000;1.000;1.000;1.000;0.510
+
+VyiRumin	Genus	g__Lachnoanaerobaculum	g__Pseudobutyrivibrio	0.510	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__Lachnoanaerobaculum_saburreum	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Pseudobutyrivibrio;s__Pseudobutyrivibrio_xylanivorans	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UwzAcidi	Genus	g__Ferrimicrobium	g__Acidimicrobium	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Acidimicrobiales;f__Acidimicrobiaceae;g__Ferrimicrobium;s__Ferrimicrobium_acidiphilum	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Acidimicrobiales;f__Acidimicrobiaceae;g__Acidimicrobium;s__Acidimicrobium_ferrooxidans	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UieBact3	Genus	g__Phaeocystidibacter	g__Owenweeksia	0.510	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Phaeocystidibacter;s__Phaeocystidibacter_luteus	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Owenweeksia;s__Owenweeksia_hongkongensis	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UfnTherm	Genus	g__Thermomarinilinea	g__Anaerolinea	0.510	k__Bacteria;p__Chloroflexi;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Thermomarinilinea;s__Thermomarinilinea_lacunifontana	k__Bacteria;p__Chloroflexi;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Anaerolinea;s__Anaerolinea_thermophila	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UcqBact3	Genus	g__Thalassococcus	g__Sediminimonas	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Thalassococcus;s__Thalassococcus_lentus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Sediminimonas;s__Sediminimonas_qiaohouensis	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+NonAmami	Genus	g__Salinirepens	g__Fluviicola	0.510	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Salinirepens;s__Salinirepens_amamiensis	k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Fluviicola	1.000;1.000;1.000;1.000;1.000;0.510
+
+UnoSeric	Genus	g__Cesiribacter	g__Marivirga	0.510	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Flammeovirgaceae;g__Cesiribacter;s__Cesiribacter_andamanensis	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Flammeovirgaceae;g__Marivirga	1.000;1.000;1.000;1.000;1.000;0.510
+
+UajTundr	Genus	g__Eubacterium	g__Acetobacterium	0.510	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Eubacteriaceae;g__Eubacterium;s__Eubacterium_combesii	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Eubacteriaceae;g__Acetobacterium	1.000;1.000;1.000;1.000;1.000;0.510
+
+UgvBac72	Genus	g__Taibaiella	g__Flavihumibacter	0.510	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Taibaiella;s__Taibaiella_koreensis	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Flavihumibacter	1.000;1.000;1.000;1.000;1.000;0.510
+
+WlfHalot	Genus	g__Nocardiopsis	g__Thermobifida	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardiopsaceae;g__Nocardiopsis;s__Nocardiopsis_litoralis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardiopsaceae;g__Thermobifida	1.000;1.000;1.000;1.000;1.000;0.510
+
+UuxSpec2	Genus	g__Salipiger	g__Thiobacimonas	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Salipiger	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Thiobacimonas;s__Thiobacimonas_profunda	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+MtrOkina	Genus	g__Methanothermococcus	g__Methanococcus	0.509	k__Archaea;p__Euryarchaeota;c__Methanococci;o__Methanococcales;f__Methanococcaceae;g__Methanothermococcus	k__Archaea;p__Euryarchaeota;c__Methanococci;o__Methanococcales;f__Methanococcaceae;g__Methanococcus	1.000;1.000;1.000;1.000;1.000;0.509
+
+VpkAnim2	Genus	g__Neisseria	g__Uruburuella	0.508	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Uruburuella	1.000;1.000;1.000;1.000;1.000;0.508
+
+WkoLentu	Species	s__Thalassococcus_lentus	s__Thalassococcus_halodurans	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Thalassococcus;s__Thalassococcus_lentus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Thalassococcus;s__Thalassococcus_halodurans	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+WedInopi	Species	s__Scardovia_inopinata	s__Scardovia_wiggsiae	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Scardovia;s__Scardovia_inopinata	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Scardovia;s__Scardovia_wiggsiae	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+WcxLacis	Species	s__Saccharopolyspora_lacisalsi	s__Saccharopolyspora_qijiaojingensis	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharopolyspora;s__Saccharopolyspora_lacisalsi	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharopolyspora;s__Saccharopolyspora_qijiaojingensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+WbtSpec4	Species	s__Roseivivax_pacificus	s__Roseivivax_roseus	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Roseivivax;s__Roseivivax_pacificus	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Roseivivax;s__Roseivivax_roseus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VvsIfriq	Species	s__Phyllobacterium_ifriqiyense	s__Phyllobacterium_catacumbae	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Phyllobacteriaceae;g__Phyllobacterium;s__Phyllobacterium_ifriqiyense	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Phyllobacteriaceae;g__Phyllobacterium;s__Phyllobacterium_catacumbae	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VvpSpec2	Species	s__Phycicoccus_ginsenosidimutans	s__Phycicoccus_aerophilus	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Intrasporangiaceae;g__Phycicoccus;s__Phycicoccus_ginsenosidimutans	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Intrasporangiaceae;g__Phycicoccus;s__Phycicoccus_aerophilus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VucSiame	Species	s__Pediococcus_siamensis	s__Pediococcus_cellicola	0.510	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Pediococcus;s__Pediococcus_siamensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Pediococcus;s__Pediococcus_cellicola	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VsrMassi	Species	s__Paenibacillus_massiliensis	s__Paenibacillus_panacisoli	0.510	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus;s__Paenibacillus_massiliensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus;s__Paenibacillus_panacisoli	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VrjCicer	Species	s__Ochrobactrum_ciceri	s__Ochrobactrum_daejeonense	0.510	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Brucellaceae;g__Ochrobactrum;s__Ochrobactrum_ciceri	k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Brucellaceae;g__Ochrobactrum;s__Ochrobactrum_daejeonense	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VoyBac24	Species	s__Faecalicoccus_acidiformans	s__Faecalicoccus_pleomorphus	0.510	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Faecalicoccus;s__Faecalicoccus_acidiformans	k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Faecalicoccus;s__Faecalicoccus_pleomorphus	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+VonSpec5	Species	s__Nocardiopsis_litoralis	s__Nocardiopsis_kunsanensis	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardiopsaceae;g__Nocardiopsis;s__Nocardiopsis_litoralis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardiopsaceae;g__Nocardiopsis;s__Nocardiopsis_kunsanensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+VfyYangl	Species	s__Streptomyces_yanglinensis	s__Streptomyces_paucisporeus	0.510	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_yanglinensis	k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_paucisporeus	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UveVietn	Species	s__Echinicola_vietnamensis	s__Echinicola_pacifica	0.510	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Echinicola;s__Echinicola_vietnamensis	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Echinicola;s__Echinicola_pacifica	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UpuExigu	Species	s__Corallococcus_exiguus	s__Corallococcus_coralloides	0.510	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__Myxococcaceae;g__Corallococcus;s__Corallococcus_exiguus	k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__Myxococcaceae;g__Corallococcus;s__Corallococcus_coralloides	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UpgThail	Species	s__Cohnella_thailandensis	s__Cohnella_formosensis	0.510	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Cohnella;s__Cohnella_thailandensis	k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Cohnella;s__Cohnella_formosensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UomSpeci	Species	s__Gulbenkiania_indica	s__Gulbenkiania_mobilis	0.510	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Gulbenkiania;s__Gulbenkiania_indica	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Gulbenkiania;s__Gulbenkiania_mobilis	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UnzSpec8	Species	s__Taibaiella_koreensis	s__Taibaiella_chishuiensis	0.510	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Taibaiella;s__Taibaiella_koreensis	k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Chitinophagaceae;g__Taibaiella;s__Taibaiella_chishuiensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UnnAndam	Species	s__Cesiribacter_andamanensis	s__Cesiribacter_roseus	0.510	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Flammeovirgaceae;g__Cesiribacter;s__Cesiribacter_andamanensis	k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Flammeovirgaceae;g__Cesiribacter;s__Cesiribacter_roseus	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UlaEndof	Species	s__Burkholderia_endofungorum	s__Burkholderia_rhizoxinica	0.510	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia;s__Burkholderia_endofungorum	k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia;s__Burkholderia_rhizoxinica	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+UiyIntes	Species	s__Barnesiella_intestinihominis	s__Barnesiella_viscericola	0.510	k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Barnesiella;s__Barnesiella_intestinihominis	k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Barnesiella;s__Barnesiella_viscericola	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UaqIntes	Species	s__Acidaminococcus_intestini	s__Acidaminococcus_fermentans	0.510	k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Acidaminococcaceae;g__Acidaminococcus;s__Acidaminococcus_intestini	k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Acidaminococcaceae;g__Acidaminococcus;s__Acidaminococcus_fermentans	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+NtlAsia2	Species	s__Natrialba_asiatica	s__Natrialba_taiwanensis	0.510	k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Natrialbales;f__Natrialbaceae;g__Natrialba;s__Natrialba_asiatica	k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Natrialbales;f__Natrialbaceae;g__Natrialba;s__Natrialba_taiwanensis	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+
+MtgBoon2	Species	s__Methanoregula_boonei	s__Methanoregula_formicica	0.510	k__Archaea;p__Euryarchaeota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanoregulaceae;g__Methanoregula;s__Methanoregula_boonei	k__Archaea;p__Euryarchaeota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanoregulaceae;g__Methanoregula;s__Methanoregula_formicica	1.000;1.000;1.000;1.000;1.000;0.510;0.510
+
+UwnSabur	Species	s__Lachnoanaerobaculum_saburreum	s__Lachnoanaerobaculum_orale	0.510	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__Lachnoanaerobaculum_saburreum	k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnoanaerobaculum;s__Lachnoanaerobaculum_orale	1.000;1.000;1.000;1.000;1.000;1.000;0.510
+

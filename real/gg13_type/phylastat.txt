@@ -1,0 +1,39 @@
+__Other	1025
+p__Acidobacteria	26
+p__Actinobacteria	2664
+p__Aquificae	27
+p__Armatimonadetes	3
+p__Bacteroidetes	1018
+p__Caldiserica	1
+p__Caldithrix	2
+p__Chlamydiae	13
+p__Chlorobi	9
+p__Chloroflexi	26
+p__Chrysiogenetes	3
+p__Crenarchaeota	41
+p__Cyanobacteria	11
+p__Deferribacteres	10
+p__Dictyoglomi	2
+p__Elusimicrobia	1
+p__Euryarchaeota	338
+p__Fibrobacteres	4
+p__Firmicutes	1989
+p__Fusobacteria	27
+p__Gemmatimonadetes	1
+p__Lentisphaerae	4
+p__Nitrospirae	7
+p__Planctomycetes	19
+p__Proteobacteria	3939
+p__Spirochaetes	87
+p__Synergistetes	21
+p__Tenericutes	182
+p__Thermotogae	40
+p__Verrucomicrobia	42
+p__[Thermi]	78
+
+
+p__Proteobacteria	15	0.003808073115
+p__Firmicutes	9	0.00452488687783
+p__Actinobacteria	4	0.0015015015015
+p__Crenarchaeota	1	0.0243902439024
+__Other	1	0.000975609756098

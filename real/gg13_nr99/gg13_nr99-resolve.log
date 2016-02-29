@@ -1,0 +1,894 @@
+SATIVA v0.9-24-g6ba4a17, released on 2015-09-23. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.tax.cleaned ...
+
+==> Loading reference alignment from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.fa ...
+
+===> Building a multifurcating tree from taxonomy with 203452 seqs ...
+
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Acetothermia] --> c___Acetothermia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brocadiae] --> c___Brocadiae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Cloacamonae] --> c___Cloacamonae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Methylacidiphilae] --> c___Methylacidiphilae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Micrarchaea] --> c___Micrarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Nanoarchaeoti] --> c___Nanoarchaeoti_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Parvarchaea] --> c___Parvarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Pedosphaerae] --> c___Pedosphaerae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Thermobacula] --> c___Thermobacula_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acetothermaceae] --> f___Acetothermaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Aciduliprofundaceae] --> f___Aciduliprofundaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Amoebophilaceae] --> f___Amoebophilaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Caldiarchaceae] --> f___Caldiarchaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chlorothrixaceae] --> f___Chlorothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cloacamonaceae] --> f___Cloacamonaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Desulforudaceae] --> f___Desulforudaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Entotheonellaceae] --> f___Entotheonellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Kouleothrixaceae] --> f___Kouleothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Melioribacteraceae] --> f___Melioribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Nanoarchaeotaceae] --> f___Nanoarchaeotaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pedosphaeraceae] --> f___Pedosphaeraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermobaculaceae] --> f___Thermobaculaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__'Solanum --> g___Solanum
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Clostridium] --> g___Clostridium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Microcystis] --> g___Microcystis_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Polyangium] --> g___Polyangium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Acetothermales] --> o___Acetothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Caldiarchales] --> o___Caldiarchales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cloacamonales] --> o___Cloacamonales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Desulforudales] --> o___Desulforudales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Entotheonellales] --> o___Entotheonellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Micrarchaeles] --> o___Micrarchaeles_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Nanoarchaeotales] --> o___Nanoarchaeotales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pedosphaerales] --> o___Pedosphaerales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Thermobaculales] --> o___Thermobaculales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Caldithrix] --> p___Caldithrix_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Parvarchaeota] --> p___Parvarchaeota_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+NOTE: Following rank name contains illegal symbols and was renamed: s__tuberosum' phytoplasma --> s__tuberosum_ phytoplasma
+
+
+Total nodes in resulting tree: 203452
+====> Building the reference alignment ...
+
+=====> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_outgr.tre, outgroup size: 4942
+======> Resolving multifurcation: choosing the best topology from 1 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f c -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa --no-dup-check -m GTRCAT -n reduce --no-bfgs -p 13753
+
+
+Constrained ML inference: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa.reduced -g /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_mfu.tre --no-seq-check -D -m GTRCAT -n mfresolv_gg_nr99-fast2.0 --no-bfgs -p 24617
+
+Resuming SATIVA execution using files from previous run found in: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+SATIVA v0.9-24-g6ba4a17, released on 2015-09-23. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.tax.cleaned ...
+
+==> Loading reference alignment from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.fa ...
+
+===> Building a multifurcating tree from taxonomy with 203452 seqs ...
+
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Acetothermia] --> c___Acetothermia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brocadiae] --> c___Brocadiae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Cloacamonae] --> c___Cloacamonae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Methylacidiphilae] --> c___Methylacidiphilae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Micrarchaea] --> c___Micrarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Nanoarchaeoti] --> c___Nanoarchaeoti_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Parvarchaea] --> c___Parvarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Pedosphaerae] --> c___Pedosphaerae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Thermobacula] --> c___Thermobacula_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acetothermaceae] --> f___Acetothermaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Aciduliprofundaceae] --> f___Aciduliprofundaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Amoebophilaceae] --> f___Amoebophilaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Caldiarchaceae] --> f___Caldiarchaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chlorothrixaceae] --> f___Chlorothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cloacamonaceae] --> f___Cloacamonaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Desulforudaceae] --> f___Desulforudaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Entotheonellaceae] --> f___Entotheonellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Kouleothrixaceae] --> f___Kouleothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Melioribacteraceae] --> f___Melioribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Nanoarchaeotaceae] --> f___Nanoarchaeotaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pedosphaeraceae] --> f___Pedosphaeraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermobaculaceae] --> f___Thermobaculaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__'Solanum --> g___Solanum
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Clostridium] --> g___Clostridium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Microcystis] --> g___Microcystis_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Polyangium] --> g___Polyangium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Acetothermales] --> o___Acetothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Caldiarchales] --> o___Caldiarchales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cloacamonales] --> o___Cloacamonales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Desulforudales] --> o___Desulforudales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Entotheonellales] --> o___Entotheonellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Micrarchaeles] --> o___Micrarchaeles_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Nanoarchaeotales] --> o___Nanoarchaeotales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pedosphaerales] --> o___Pedosphaerales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Thermobaculales] --> o___Thermobaculales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Caldithrix] --> p___Caldithrix_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Parvarchaeota] --> p___Parvarchaeota_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+NOTE: Following rank name contains illegal symbols and was renamed: s__tuberosum' phytoplasma --> s__tuberosum_ phytoplasma
+
+
+Total nodes in resulting tree: 203452
+====> Building the reference alignment ...
+
+=====> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_outgr.tre, outgroup size: 4942
+======> Resolving multifurcation: choosing the best topology from 1 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f c -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa --no-dup-check -m GTRCAT -n reduce --no-bfgs -p 30749
+
+
+Constrained ML inference: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa.reduced -g /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_mfu.tre --no-seq-check -D -m GTRCAT -n mfresolv_gg_nr99-fast2.0 --no-bfgs -p 11042 -Z /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/RAxML_binaryCheckpoint.last_chkpoint
+
+Resuming SATIVA execution using files from previous run found in: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+SATIVA v0.9-24-g6ba4a17, released on 2015-09-23. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.tax.cleaned ...
+
+==> Loading reference alignment from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.fa ...
+
+===> Building a multifurcating tree from taxonomy with 203452 seqs ...
+
+Following sequences are identical: 311211, 148544
+Following sequences are identical: 579809, 577572
+Following sequences are identical: 349841, 323759
+Following sequences are identical: 4338413, 4378972
+Following sequences are identical: 129033, 106041, 4328282
+Following sequences are identical: 423334, 931804
+Following sequences are identical: 214727, 211501
+Following sequences are identical: 382211, 376835
+Following sequences are identical: 459777, 389369
+Following sequences are identical: 4297846, 4443235
+Following sequences are identical: 121902, 119086
+Following sequences are identical: 84904, 84033
+Following sequences are identical: 4341349, 4481373
+Following sequences are identical: 557168, 1141411
+Following sequences are identical: 2471021, 3897460
+Following sequences are identical: 560049, 34165
+Following sequences are identical: 2054261, 4385979
+Following sequences are identical: 4315144, 4410017
+Following sequences are identical: 142232, 142181
+Following sequences are identical: 147423, 146868
+Following sequences are identical: 4295251, 4295252
+Following sequences are identical: 619919, 771724
+Following sequences are identical: 210193, 205426
+Following sequences are identical: 517666, 515067
+Following sequences are identical: 450955, 450595
+Following sequences are identical: 539013, 512067
+Following sequences are identical: 246889, 1138066
+Following sequences are identical: 132168, 128135, 128077
+Following sequences are identical: 1786432, 4426832
+Following sequences are identical: 277778, 719651
+Following sequences are identical: 669218, 750074
+Following sequences are identical: 3526713, 4306174
+Found 34 sequence duplicates
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Acetothermia] --> c___Acetothermia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brocadiae] --> c___Brocadiae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Cloacamonae] --> c___Cloacamonae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Methylacidiphilae] --> c___Methylacidiphilae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Micrarchaea] --> c___Micrarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Nanoarchaeoti] --> c___Nanoarchaeoti_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Parvarchaea] --> c___Parvarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Pedosphaerae] --> c___Pedosphaerae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Thermobacula] --> c___Thermobacula_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acetothermaceae] --> f___Acetothermaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Aciduliprofundaceae] --> f___Aciduliprofundaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Amoebophilaceae] --> f___Amoebophilaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Caldiarchaceae] --> f___Caldiarchaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chlorothrixaceae] --> f___Chlorothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cloacamonaceae] --> f___Cloacamonaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Desulforudaceae] --> f___Desulforudaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Entotheonellaceae] --> f___Entotheonellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Kouleothrixaceae] --> f___Kouleothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Melioribacteraceae] --> f___Melioribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Nanoarchaeotaceae] --> f___Nanoarchaeotaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pedosphaeraceae] --> f___Pedosphaeraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermobaculaceae] --> f___Thermobaculaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__'Solanum --> g___Solanum
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Clostridium] --> g___Clostridium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Microcystis] --> g___Microcystis_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Polyangium] --> g___Polyangium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Acetothermales] --> o___Acetothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Caldiarchales] --> o___Caldiarchales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cloacamonales] --> o___Cloacamonales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Desulforudales] --> o___Desulforudales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Entotheonellales] --> o___Entotheonellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Micrarchaeles] --> o___Micrarchaeles_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Nanoarchaeotales] --> o___Nanoarchaeotales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pedosphaerales] --> o___Pedosphaerales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Thermobaculales] --> o___Thermobaculales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Caldithrix] --> p___Caldithrix_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Parvarchaeota] --> p___Parvarchaeota_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+NOTE: Following rank name contains illegal symbols and was renamed: s__tuberosum' phytoplasma --> s__tuberosum_ phytoplasma
+
+
+Total nodes in resulting tree: 203452
+====> Building the reference alignment ...
+
+=====> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_outgr.tre, outgroup size: 4942
+======> Resolving multifurcation: choosing the best topology from 1 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f c -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa --no-dup-check -m GTRCAT -n reduce --no-bfgs -p 9396
+
+
+Constrained ML inference: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa.reduced -g /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_mfu.tre --no-seq-check -D -m GTRCAT -n mfresolv_gg_nr99-fast2.0 --no-bfgs -p 25350 -Z /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/RAxML_binaryCheckpoint.last_chkpoint
+
+Resuming SATIVA execution using files from previous run found in: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+SATIVA v0.9-24-g6ba4a17, released on 2015-09-23. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.tax.cleaned ...
+
+==> Loading reference alignment from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.fa ...
+
+===> Building a multifurcating tree from taxonomy with 203452 seqs ...
+
+Following sequences are identical: 311211, 148544
+Following sequences are identical: 579809, 577572
+Following sequences are identical: 349841, 323759
+Following sequences are identical: 4338413, 4378972
+Following sequences are identical: 129033, 106041, 4328282
+Following sequences are identical: 423334, 931804
+Following sequences are identical: 214727, 211501
+Following sequences are identical: 382211, 376835
+Following sequences are identical: 459777, 389369
+Following sequences are identical: 4297846, 4443235
+Following sequences are identical: 121902, 119086
+Following sequences are identical: 84904, 84033
+Following sequences are identical: 4341349, 4481373
+Following sequences are identical: 557168, 1141411
+Following sequences are identical: 2471021, 3897460
+Following sequences are identical: 560049, 34165
+Following sequences are identical: 2054261, 4385979
+Following sequences are identical: 4315144, 4410017
+Following sequences are identical: 142232, 142181
+Following sequences are identical: 147423, 146868
+Following sequences are identical: 4295251, 4295252
+Following sequences are identical: 619919, 771724
+Following sequences are identical: 210193, 205426
+Following sequences are identical: 517666, 515067
+Following sequences are identical: 450955, 450595
+Following sequences are identical: 539013, 512067
+Following sequences are identical: 246889, 1138066
+Following sequences are identical: 132168, 128135, 128077
+Following sequences are identical: 1786432, 4426832
+Following sequences are identical: 277778, 719651
+Following sequences are identical: 669218, 750074
+Following sequences are identical: 3526713, 4306174
+Found 34 sequence duplicates
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Acetothermia] --> c___Acetothermia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brocadiae] --> c___Brocadiae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Cloacamonae] --> c___Cloacamonae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Methylacidiphilae] --> c___Methylacidiphilae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Micrarchaea] --> c___Micrarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Nanoarchaeoti] --> c___Nanoarchaeoti_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Parvarchaea] --> c___Parvarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Pedosphaerae] --> c___Pedosphaerae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Thermobacula] --> c___Thermobacula_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acetothermaceae] --> f___Acetothermaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Aciduliprofundaceae] --> f___Aciduliprofundaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Amoebophilaceae] --> f___Amoebophilaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Caldiarchaceae] --> f___Caldiarchaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chlorothrixaceae] --> f___Chlorothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cloacamonaceae] --> f___Cloacamonaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Desulforudaceae] --> f___Desulforudaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Entotheonellaceae] --> f___Entotheonellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Kouleothrixaceae] --> f___Kouleothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Melioribacteraceae] --> f___Melioribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Nanoarchaeotaceae] --> f___Nanoarchaeotaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pedosphaeraceae] --> f___Pedosphaeraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermobaculaceae] --> f___Thermobaculaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__'Solanum --> g___Solanum
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Clostridium] --> g___Clostridium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Microcystis] --> g___Microcystis_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Polyangium] --> g___Polyangium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Acetothermales] --> o___Acetothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Caldiarchales] --> o___Caldiarchales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cloacamonales] --> o___Cloacamonales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Desulforudales] --> o___Desulforudales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Entotheonellales] --> o___Entotheonellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Micrarchaeles] --> o___Micrarchaeles_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Nanoarchaeotales] --> o___Nanoarchaeotales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pedosphaerales] --> o___Pedosphaerales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Thermobaculales] --> o___Thermobaculales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Caldithrix] --> p___Caldithrix_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Parvarchaeota] --> p___Parvarchaeota_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+NOTE: Following rank name contains illegal symbols and was renamed: s__tuberosum' phytoplasma --> s__tuberosum_ phytoplasma
+
+
+Total nodes in resulting tree: 203452
+====> Building the reference alignment ...
+
+=====> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_outgr.tre, outgroup size: 4942
+======> Resolving multifurcation: choosing the best topology from 1 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f c -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa --no-dup-check -m GTRCAT -n reduce --no-bfgs -p 5840
+
+Resuming SATIVA execution using files from previous run found in: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+SATIVA v0.9-24-g6ba4a17, released on 2015-09-23. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.tax.cleaned ...
+
+==> Loading reference alignment from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.fa ...
+
+===> Building a multifurcating tree from taxonomy with 203452 seqs ...
+
+Following sequences are identical: 311211, 148544
+Following sequences are identical: 579809, 577572
+Following sequences are identical: 349841, 323759
+Following sequences are identical: 4338413, 4378972
+Following sequences are identical: 129033, 106041, 4328282
+Following sequences are identical: 423334, 931804
+Following sequences are identical: 214727, 211501
+Following sequences are identical: 382211, 376835
+Following sequences are identical: 459777, 389369
+Following sequences are identical: 4297846, 4443235
+Following sequences are identical: 121902, 119086
+Following sequences are identical: 84904, 84033
+Following sequences are identical: 4341349, 4481373
+Following sequences are identical: 557168, 1141411
+Following sequences are identical: 2471021, 3897460
+Following sequences are identical: 560049, 34165
+Following sequences are identical: 2054261, 4385979
+Following sequences are identical: 4315144, 4410017
+Following sequences are identical: 142232, 142181
+Following sequences are identical: 147423, 146868
+Following sequences are identical: 4295251, 4295252
+Following sequences are identical: 619919, 771724
+Following sequences are identical: 210193, 205426
+Following sequences are identical: 517666, 515067
+Following sequences are identical: 450955, 450595
+Following sequences are identical: 539013, 512067
+Following sequences are identical: 246889, 1138066
+Following sequences are identical: 132168, 128135, 128077
+Following sequences are identical: 1786432, 4426832
+Following sequences are identical: 277778, 719651
+Following sequences are identical: 669218, 750074
+Following sequences are identical: 3526713, 4306174
+Found 34 sequence duplicates
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Acetothermia] --> c___Acetothermia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brocadiae] --> c___Brocadiae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Cloacamonae] --> c___Cloacamonae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Methylacidiphilae] --> c___Methylacidiphilae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Micrarchaea] --> c___Micrarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Nanoarchaeoti] --> c___Nanoarchaeoti_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Parvarchaea] --> c___Parvarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Pedosphaerae] --> c___Pedosphaerae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Thermobacula] --> c___Thermobacula_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acetothermaceae] --> f___Acetothermaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Aciduliprofundaceae] --> f___Aciduliprofundaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Amoebophilaceae] --> f___Amoebophilaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Caldiarchaceae] --> f___Caldiarchaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chlorothrixaceae] --> f___Chlorothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cloacamonaceae] --> f___Cloacamonaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Desulforudaceae] --> f___Desulforudaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Entotheonellaceae] --> f___Entotheonellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Kouleothrixaceae] --> f___Kouleothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Melioribacteraceae] --> f___Melioribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Nanoarchaeotaceae] --> f___Nanoarchaeotaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pedosphaeraceae] --> f___Pedosphaeraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermobaculaceae] --> f___Thermobaculaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__'Solanum --> g___Solanum
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Clostridium] --> g___Clostridium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Microcystis] --> g___Microcystis_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Polyangium] --> g___Polyangium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Acetothermales] --> o___Acetothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Caldiarchales] --> o___Caldiarchales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cloacamonales] --> o___Cloacamonales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Desulforudales] --> o___Desulforudales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Entotheonellales] --> o___Entotheonellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Micrarchaeles] --> o___Micrarchaeles_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Nanoarchaeotales] --> o___Nanoarchaeotales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pedosphaerales] --> o___Pedosphaerales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Thermobaculales] --> o___Thermobaculales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Caldithrix] --> p___Caldithrix_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Parvarchaeota] --> p___Parvarchaeota_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+NOTE: Following rank name contains illegal symbols and was renamed: s__tuberosum' phytoplasma --> s__tuberosum_ phytoplasma
+
+
+Total nodes in resulting tree: 203452
+====> Building the reference alignment ...
+
+=====> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_outgr.tre, outgroup size: 4942
+======> Resolving multifurcation: choosing the best topology from 1 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f c -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa --no-dup-check -m GTRCAT -n reduce --no-bfgs -p 11623
+
+
+Constrained ML inference: 
+
+Resuming SATIVA execution using files from previous run found in: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+SATIVA v0.9-24-g6ba4a17, released on 2015-09-23. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.tax.cleaned ...
+
+==> Loading reference alignment from file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/infile.fa ...
+
+===> Building a multifurcating tree from taxonomy with 203452 seqs ...
+
+Following sequences are identical: 311211, 148544
+Following sequences are identical: 579809, 577572
+Following sequences are identical: 349841, 323759
+Following sequences are identical: 4338413, 4378972
+Following sequences are identical: 129033, 106041, 4328282
+Following sequences are identical: 423334, 931804
+Following sequences are identical: 214727, 211501
+Following sequences are identical: 382211, 376835
+Following sequences are identical: 459777, 389369
+Following sequences are identical: 4297846, 4443235
+Following sequences are identical: 121902, 119086
+Following sequences are identical: 84904, 84033
+Following sequences are identical: 4341349, 4481373
+Following sequences are identical: 557168, 1141411
+Following sequences are identical: 2471021, 3897460
+Following sequences are identical: 560049, 34165
+Following sequences are identical: 2054261, 4385979
+Following sequences are identical: 4315144, 4410017
+Following sequences are identical: 142232, 142181
+Following sequences are identical: 147423, 146868
+Following sequences are identical: 4295251, 4295252
+Following sequences are identical: 619919, 771724
+Following sequences are identical: 210193, 205426
+Following sequences are identical: 517666, 515067
+Following sequences are identical: 450955, 450595
+Following sequences are identical: 539013, 512067
+Following sequences are identical: 246889, 1138066
+Following sequences are identical: 132168, 128135, 128077
+Following sequences are identical: 1786432, 4426832
+Following sequences are identical: 277778, 719651
+Following sequences are identical: 669218, 750074
+Following sequences are identical: 3526713, 4306174
+Found 34 sequence duplicates
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Acetothermia] --> c___Acetothermia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brachyspirae] --> c___Brachyspirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brevinematae] --> c___Brevinematae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Brocadiae] --> c___Brocadiae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Chloracidobacteria] --> c___Chloracidobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Cloacamonae] --> c___Cloacamonae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Fimbriimonadia] --> c___Fimbriimonadia_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Lentisphaeria] --> c___Lentisphaeria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Leptospirae] --> c___Leptospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Methylacidiphilae] --> c___Methylacidiphilae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Micrarchaea] --> c___Micrarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Nanoarchaeoti] --> c___Nanoarchaeoti_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Parvarchaea] --> c___Parvarchaea_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Pedosphaerae] --> c___Pedosphaerae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Rhodothermi] --> c___Rhodothermi_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Saprospirae] --> c___Saprospirae_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Spartobacteria] --> c___Spartobacteria_
+NOTE: Following rank name contains illegal symbols and was renamed: c__[Thermobacula] --> c___Thermobacula_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acetothermaceae] --> f___Acetothermaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Acidaminobacteraceae] --> f___Acidaminobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Aciduliprofundaceae] --> f___Aciduliprofundaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Amoebophilaceae] --> f___Amoebophilaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Balneolaceae] --> f___Balneolaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Barnesiellaceae] --> f___Barnesiellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Borreliaceae] --> f___Borreliaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Bryobacteraceae] --> f___Bryobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Caldiarchaceae] --> f___Caldiarchaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cerasicoccaceae] --> f___Cerasicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloracidobacteraceae] --> f___Chloracidobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chloroherpetaceae] --> f___Chloroherpetaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chlorothrixaceae] --> f___Chlorothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chromatiaceae] --> f___Chromatiaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Chthoniobacteraceae] --> f___Chthoniobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Cloacamonaceae] --> f___Cloacamonaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Desulforudaceae] --> f___Desulforudaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Entotheonellaceae] --> f___Entotheonellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Exiguobacteraceae] --> f___Exiguobacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Fimbriimonadaceae] --> f___Fimbriimonadaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Kouleothrixaceae] --> f___Kouleothrixaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Leptospirillaceae] --> f___Leptospirillaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Marinicellaceae] --> f___Marinicellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Melioribacteraceae] --> f___Melioribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Methanomassiliicoccaceae] --> f___Methanomassiliicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Mogibacteriaceae] --> f___Mogibacteriaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Nanoarchaeotaceae] --> f___Nanoarchaeotaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Odoribacteraceae] --> f___Odoribacteraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Paraprevotellaceae] --> f___Paraprevotellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pedosphaeraceae] --> f___Pedosphaeraceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Pelagicoccaceae] --> f___Pelagicoccaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Roseiflexaceae] --> f___Roseiflexaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermicanaceae] --> f___Thermicanaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermobaculaceae] --> f___Thermobaculaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Thermodesulfovibrionaceae] --> f___Thermodesulfovibrionaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Tissierellaceae] --> f___Tissierellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: f__[Weeksellaceae] --> f___Weeksellaceae_
+NOTE: Following rank name contains illegal symbols and was renamed: g__'Solanum --> g___Solanum
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Clostridium] --> g___Clostridium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Eubacterium] --> g___Eubacterium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Microcystis] --> g___Microcystis_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Polyangium] --> g___Polyangium_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Prevotella] --> g___Prevotella_
+NOTE: Following rank name contains illegal symbols and was renamed: g__[Ruminococcus] --> g___Ruminococcus_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Acetothermales] --> o___Acetothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Borreliales] --> o___Borreliales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brachyspirales] --> o___Brachyspirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Brevinematales] --> o___Brevinematales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Caldiarchales] --> o___Caldiarchales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cerasicoccales] --> o___Cerasicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloracidobacterales] --> o___Chloracidobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chloroherpetales] --> o___Chloroherpetales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Chthoniobacterales] --> o___Chthoniobacterales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Cloacamonales] --> o___Cloacamonales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Desulforudales] --> o___Desulforudales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Entotheonellales] --> o___Entotheonellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Fimbriimonadales] --> o___Fimbriimonadales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Leptospirales] --> o___Leptospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Marinicellales] --> o___Marinicellales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Micrarchaeles] --> o___Micrarchaeles_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Nanoarchaeotales] --> o___Nanoarchaeotales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pedosphaerales] --> o___Pedosphaerales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Pelagicoccales] --> o___Pelagicoccales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Rhodothermales] --> o___Rhodothermales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Roseiflexales] --> o___Roseiflexales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Saprospirales] --> o___Saprospirales_
+NOTE: Following rank name contains illegal symbols and was renamed: o__[Thermobaculales] --> o___Thermobaculales_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Caldithrix] --> p___Caldithrix_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Parvarchaeota] --> p___Parvarchaeota_
+NOTE: Following rank name contains illegal symbols and was renamed: p__[Thermi] --> p___Thermi_
+NOTE: Following rank name contains illegal symbols and was renamed: s__tuberosum' phytoplasma --> s__tuberosum_ phytoplasma
+
+
+Total nodes in resulting tree: 203452
+====> Building the reference alignment ...
+
+=====> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_outgr.tre, outgroup size: 4942
+======> Resolving multifurcation: choosing the best topology from 1 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f c -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa --no-dup-check -m GTRCAT -n reduce --no-bfgs -p 22083
+
+
+Constrained ML inference: 
+
+
+Using existing ML tree found in: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/RAxML_result.mfresolv_gg_nr99-fast2
+
+
+Optimizing model parameters: 
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -f e -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_matrix.afa.reduced -t /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/RAxML_result.mfresolv_gg_nr99-fast2 --no-seq-check -H -m GTRCAT -n optmod_gg_nr99-fast2 --no-bfgs -p 17041
+
+
+CAT-based logLH of the reference tree: -22774271.407931
+
+=======> Calling RAxML-EPA to obtain branch labels ...
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_lblq.fa -t /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2_bfu.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.00245758213239 -R /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2.opt -H -m GTRCAT -n epalbl_gg_nr99-fast2 --no-bfgs -p 29310
+
+========> Post-processing the EPA tree (re-rooting, taxonomic labeling etc.) ...
+
+
+=========> Checking branch labels ...
+shared rank names before training: set([])
+shared rank names after  training: set(['s__okinawensis', 's__marinus', 's__subterraneum', 's__ruber', 's__sibiricus', 's__rubrum', 's__palustris', 's__thermotolerans', 's__halophilus', 's__rarus', 'g__Coxiella', 's__abyssi', 's__salinus', '-', 's__asiatica', 's__guaymasensis', 's__litoralis', 's__jeotgali', 's__acidocaldarius', 's__lacisalsi', 's__aegyptia', 's__salinarum', 's__mucosus', 's__atlanticus', 's__symbiosum', 's__pacificus', 's__alkaliphilum', 's__aggregans'])
+
+=========> Saving the reference JSON file: /hits/sco/kozlov/mislabels/paper_v2/real/gg_nr99/gg_nr99-fast2.refjson
+
+Calculating the speciation rate...
+
+Writing down the reference file...
+
+*** STEP 2: Searching for mislabels ***
+
+Running the leave-one-sequence-out test...
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2.refaln -t /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/ref_gg_nr99-fast2.tre --no-seq-check -f O --epa-accumulated-threshold 0.999 -G 0.00245758213239 -R /hits/sco/kozlov/mislabels/paper_v2/real/tmp/gg_nr99-fast2_1446284195859/gg_nr99-fast2.opt -H -m GTRCAT -n l1out_seq_gg_nr99-fast2 --no-bfgs -p 21201
+

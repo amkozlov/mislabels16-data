@@ -1,0 +1,53 @@
+No phylum in ranks: Bacteria
+
+Acidobacteria	31
+Actinobacteria	2884
+Aquificae	28
+Armatimonadetes	3
+Bacteroidetes	1240
+Caldiserica	1
+Chlamydiae	13
+Chlorobi	11
+Chloroflexi	33
+Chrysiogenetes	4
+Crenarchaeota	51
+Cyanobacteria/Chloroplast	15
+Deferribacteres	13
+Deinococcus-Thermus	84
+Dictyoglomi	2
+Elusimicrobia	1
+Euryarchaeota	393
+Fibrobacteres	4
+Firmicutes	2197
+Fusobacteria	38
+Gemmatimonadetes	1
+Ignavibacteriae	2
+Lentisphaerae	4
+Nitrospirae	7
+Planctomycetes	22
+Proteobacteria	4388
+Spirochaetes	93
+Synergistetes	23
+Tenericutes	186
+Thaumarchaeota	1
+Thermodesulfobacteria	8
+Thermotogae	42
+Verrucomicrobia	43
+__Other	1158
+candidate division WPS-2	1
+
+
+Proteobacteria	59	0.0134457611668
+Firmicutes	39	0.0177514792899
+__Other	22	0.0189982728843
+Actinobacteria	16	0.00554785020804
+Bacteroidetes	15	0.0120967741935
+Euryarchaeota	9	0.0229007633588
+Tenericutes	3	0.0161290322581
+Planctomycetes	2	0.0909090909091
+Fusobacteria	2	0.0526315789474
+Crenarchaeota	2	0.0392156862745
+Spirochaetes	1	0.010752688172
+Verrucomicrobia	1	0.0232558139535
+Chloroflexi	1	0.030303030303
+Thermotogae	1	0.0238095238095

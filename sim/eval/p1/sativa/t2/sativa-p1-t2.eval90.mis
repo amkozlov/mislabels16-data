@@ -1,0 +1,532 @@
+; List of misclassified sequences.
+; Format: 4 lines per sequence
+; 1 sequence ID
+; 2 correct assignment
+; 3 epatax assignment
+; 4 rank confidence levels
+
+WdwEryth
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Samsonia;s__Samsonia_erythrinae
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WfeWaksm
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Shewanellaceae;g__Shewanella;s__Shewanella_waksmanii
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Shewanellaceae;g__Shewanella
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UpwKropp
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Corynebacteriaceae;g__Corynebacterium;s__Corynebacterium_kroppenstedtii
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Corynebacteriaceae;g__Corynebacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VyqAeru2
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_aeruginosa
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_otitidis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WhnMalon
+k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Sporomusa;s__Sporomusa_malonica
+k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Sporomusa
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UwrOxido
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Exiguobacterium;g__Exiguobacterium;s__Exiguobacterium_oxidotolerans
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Exiguobacterium;g__Exiguobacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VnnFulvi
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Micromonospora;s__Micromonospora_fulviviridis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Micromonospora
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VheUltun
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_ultunensis
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WtaTerra
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Rudaibacter;s__Rudaibacter_terrae
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VnhArabi
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Microbacterium;s__Microbacterium_arabinogalactanolyticum
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Microbacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WguKyung
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas;s__Sphingomonas_kyungheensis
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WhsSucci
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus;s__Staphylococcus_succinus_subsp._casei
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UbjVerru
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Thermomonosporaceae;g__Actinomadura;s__Actinomadura_verrucosospora
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Thermomonosporaceae;g__Actinomadura
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VfyNarbo
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_narbonensis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VyhMaric
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas_maricaloris
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+XntAmino
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Xanthobacter;s__Xanthobacter_aminoxidans
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Xanthobacter;s__Xanthobacter_flavus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WpnSpeci
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Vitellibacter;s__Vitellibacter_aestuarii
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Vitellibacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WjnMorbi
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Tatumella;s__Tatumella_morbirosei
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Tatumella
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VzkSpeci
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Psychrosphaera;s__Psychrosphaera_aestuarii
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Psychrosphaera;s__Psychrosphaera_saromensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UxxRoseo
+k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Flexibacter;s__Flexibacter_roseolus
+k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Flexibacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VibTubia
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Vibrio;s__Vibrio_tubiashii
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Vibrio
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UogAggre
+k__Bacteria;p__Chloroflexi;c__Chloroflexia;o__Chloroflexales;f__Chloroflexaceae;g__Chloroflexus;s__Chloroflexus_aggregans
+k__Bacteria;p__Chloroflexi;c__Chloroflexia;o__Chloroflexales;f__Chloroflexaceae;g__Chloroflexus;s__Chloroflexus_aurantiacus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UlaUnama
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia;s__Burkholderia_unamae
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VioSpeci
+k__Bacteria;p__Chloroflexi;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Ornatilinea;s__Ornatilinea_apprima
+k__Bacteria;p__Chloroflexi;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Longilinea;s__Longilinea_arvoryzae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WcoRubra
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Rugamonas;s__Rugamonas_rubra
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_stutzeri
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VilSpeci
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Leucobacter;s__Leucobacter_celer
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Leucobacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WidLutet
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__Streptococcus_infantarius_subsp._coli
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VskSpeci
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae;g__Luteibaculum;s__Luteibaculum_oceani
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Cryomorphaceae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VqkAgari
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardioidaceae;g__Nocardioides;s__Nocardioides_agariphilus
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardioidaceae;g__Nocardioides
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WeaSSoli
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Sanguibacteraceae;g__Sanguibacter;s__Sanguibacter_soli
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Sanguibacteraceae;g__Sanguibacter;s__Sanguibacter_marinus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VyqAngui
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_anguilliseptica
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_guineae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VheSuebi
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_suebicus
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_hokkaidonensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VbyAlmer
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Halomonadaceae;g__Halomonas;s__Halomonas_almeriensis
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Halomonadaceae;g__Halomonas
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VcrSpec5
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Paraherbaspirillum;s__Paraherbaspirillum_soli
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Herbaspirillum;s__Herbaspirillum_huttiense_subsp._putei
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VvfCysti
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Phaeospirillum;s__Phaeospirillum_oryzae
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Phaeospirillum
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UpbSp490
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium_bornimense
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium_cellulovorans
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UzxSubte
+k__Bacteria;p__Thermotogae;c__Thermotogae;o__Thermotogales;f__Thermotogaceae;g__Geotoga;s__Geotoga_subterranea
+k__Bacteria;p__Thermotogae;c__Thermotogae;o__Thermotogales;f__Thermotogaceae;g__Oceanotoga;s__Oceanotoga_teriensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WczCoeru
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharothrix;s__Saccharothrix_coeruleofusca
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Saccharothrix
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UxuMult2
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Sphingobacterium;s__Sphingobacterium_multivorum
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Sphingobacterium;s__Sphingobacterium_caeni
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VlnNiast
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Massilia;s__Massilia_niastensis
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Massilia
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WhsEquor
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus;s__Staphylococcus_equorum_subsp._equorum
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VotOdora
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Myroides;s__Myroides_odoratimimus
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Myroides;s__Myroides_xuanwuensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VlpRupel
+k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Megamonas;s__Megamonas_rupellensis
+k__Bacteria;p__Firmicutes;c__Negativicutes;o__Selenomonadales;f__Veillonellaceae;g__Megamonas;s__Megamonas_funiformis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UglMacau
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Fictibacillus;s__Fictibacillus_macauensis
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Fictibacillus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VheKulla
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus;s__Lactobacillus_kullabergensis
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WguSpec9
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas;s__Sphingomonas_jinjuensis
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas;s__Sphingomonas_abaci
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UllMathr
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Thermoanaerobacterales;f__Thermoanaerobacteraceae;g__Thermoanaerobacter;s__Thermoanaerobacter_mathranii_subsp._alimentarius
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Thermoanaerobacterales;f__Thermoanaerobacteraceae;g__Thermoanaerobacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UipAZeae
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Azospirillum;s__Azospirillum_zeae
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Azospirillum
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UpgHongk
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Cohnella;s__Cohnella_hongkongensis
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Cohnella;s__Cohnella_boryungensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VoqKubic
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium_kubicae
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Mycobacteriaceae;g__Mycobacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WegPalud
+k__Bacteria;p__Planctomycetes;c__Planctomycetacia;o__Planctomycetales;f__Planctomycetaceae;g__Schlesneria;s__Schlesneria_paludicola
+k__Bacteria;p__Planctomycetes;c__Planctomycetacia;o__Planctomycetales;f__Planctomycetaceae;g__Planctopirus;s__Planctopirus_limnophila
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VyqChlo3
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_chlororaphis_subsp._chlororaphis
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VrdDongh
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae;g__Oceanisphaera;s__Oceanisphaera_donghaensis
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae;g__Oceanisphaera
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VyhAuran
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas_aurantia
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas_phenolica
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WcaDento
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Rothia;s__Rothia_dentocariosa
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Sinomonas;s__Sinomonas_echigonensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VfyCyane
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_cyaneofuscatus
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VhvDumof
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae;g__Legionella;s__Legionella_dumoffii
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae;g__Legionella
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UeoStell
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Alteromonas;s__Alteromonas_stellipolaris
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Marinobacterium;s__Marinobacterium_nitratireducens
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UbkSpadi
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Thermomonosporaceae;g__Actinoallomurus;s__Actinoallomurus_spadix
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Thermomonosporaceae;g__Actinoallomurus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VojGraci
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Mucilaginibacter;s__Mucilaginibacter_gracilis
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Mucilaginibacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UhpUrato
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Arthrobacter;s__Arthrobacter_uratoxydans
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Arthrobacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WbdConor
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rickettsiales;f__Rickettsiaceae;g__Rickettsia;s__Rickettsia_conorii
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rickettsiales;f__Rickettsiaceae;g__Rickettsia
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UscAlkal
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__Desulfitispora;s__Desulfitispora_alkaliphila
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__Desulfitibacter;s__Desulfitibacter_alkalitolerans
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VsrElgii
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus;s__Paenibacillus_elgii
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UdoJeotg
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Alishewanella;s__Alishewanella_jeotgali
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Alteromonadaceae;g__Alishewanella
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UglBever
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Bacillus;s__Bacillus_beveridgei
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Bacillus;s__Bacillus_locisalis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VkyPonti
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Oceanospirillaceae;g__Marinomonas;s__Marinomonas_pontica
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Oceanospirillaceae;g__Marinomonas;s__Marinomonas_foliarum
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VsrSpe22
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus;s__Paenibacillus_darwinianus
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus;s__Paenibacillus_tarimensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UkpPityo
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Brevibacteriaceae;g__Brevibacterium;s__Brevibacterium_pityocampae
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Brevibacteriaceae;g__Brevibacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UopXinji
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Salinibacterium;s__Salinibacterium_xinjiangense
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Microbacteriaceae;g__Salinibacterium;s__Salinibacterium_amurskyense
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UfbSpeci
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Amycolatopsis;s__Amycolatopsis_eurytherma
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Pseudonocardiaceae;g__Amycolatopsis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VwuHydro
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Polaromonas;s__Polaromonas_hydrogenivorans
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Polaromonas;s__Polaromonas_glacialis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UpbSp336
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium_swellfunianum
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UglMetha
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Bacillus;s__Bacillus_methanolicus
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Bacillus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VnnSpe10
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Micromonospora;s__Micromonospora_polyrhachis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Micromonospora;s__Micromonospora_pisi
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WidCrist
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__Streptococcus_cristatus
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VyhUlvae
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas_ulvae
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Pseudoalteromonadaceae;g__Pseudoalteromonas
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WdjRoseu
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Salinicoccus;s__Salinicoccus_roseus
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Salinicoccus
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UxxElega
+k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Flexibacter;s__Flexibacter_elegans
+k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cytophagaceae;g__Flexibacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UjzSchin
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Blautia;g__Blautia;s__Blautia_schinkii
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Blautia;g__Blautia
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UwcMundt
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__Enterococcus_mundtii
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus;s__Enterococcus_villorum
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UwiSepti
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Pantoea;s__Pantoea_septica
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Pantoea
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UpwFalse
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Corynebacteriaceae;g__Corynebacterium;s__Corynebacterium_falsenii
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Corynebacteriaceae;g__Corynebacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WidSOvis
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__Streptococcus_ovis
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus;s__Streptococcus_tangierensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VfyTorul
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_torulosus
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_ipomoeae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UmvYoron
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Catenulisporaceae;g__Catenulispora;s__Catenulispora_yoronensis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Catenulisporaceae;g__Catenulispora
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UbsHyova
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces;s__Actinomyces_hyovaginalis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VhuWalte
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae;g__Legionella;s__Legionella_waltersii
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Legionellales;f__Legionellaceae;g__Legionella
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UjxSpec7
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Blastomonas;s__Blastomonas_aquatica
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VqdAlkal
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__Nitrobacter;s__Nitrobacter_alkalicus
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__Nitrobacter;s__Nitrobacter_vulgaris
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UpbPerfr
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium_perfringens
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UxtCucum
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Flavobacterium;s__Flavobacterium_cucumis
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Flavobacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WdlTerra
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Salinimicrobium;s__Salinimicrobium_terrae
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia;o__Flavobacteriales;f__Flavobacteriaceae;g__Salinimicrobium;s__Salinimicrobium_sediminis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VclMasto
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Helicobacteraceae;g__Helicobacter;s__Helicobacter_mastomyrinus
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Helicobacteraceae;g__Helicobacter;s__Helicobacter_typhlonius
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UqtSpec3
+k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Cyclobacterium;s__Cyclobacterium_xiamenense
+k__Bacteria;p__Bacteroidetes;c__Cytophagia;o__Cytophagales;f__Cyclobacteriaceae;g__Cyclobacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UhhBival
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Arcobacter;s__Arcobacter_bivalviorum
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Arcobacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UkqAnder
+k__Bacteria;p__Spirochaetes;c__Spirochaetes;o__Spirochaetales;f__Brevinemataceae;g__Brevinema;s__Brevinema_andersonii
+k__Bacteria;p__Spirochaetes;c__Spirochaetes;o__Spirochaetales;f__Brachyspiraceae;g__Brachyspira;s__Brachyspira_pilosicoli
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VaiSpeci
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Gluconacetobacter;s__Gluconacetobacter_asukensis
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Gluconacetobacter;s__Gluconacetobacter_tumulicola
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UbwToeve
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Actinoplanes;s__Actinoplanes_toevensis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micromonosporaceae;g__Actinoplanes
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+NonBac45
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Methylobacteriaceae;g__Psychroglaciecola;s__Psychroglaciecola_arctica
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Methylobacteriaceae;g__Methylobacterium
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+HlfGibbo
+k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Haloferacales;f__Haloferacaceae;g__Haloferax;s__Haloferax_gibbonsii
+k__Archaea;p__Euryarchaeota;c__Halobacteria;o__Haloferacales;f__Haloferacaceae;g__Haloferax
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VudSanda
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter;s__Pedobacter_sandarakinus
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+WipSp123
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Sulfitobacter;s__Sulfitobacter_noctilucae
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Sulfitobacter;s__Sulfitobacter_noctilucicola
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+UkaCaseo
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Bogoriellaceae;g__Bogoriella;s__Bogoriella_caseilytica
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Nocardiopsaceae;g__Streptomonospora;s__Streptomonospora_algeriensis
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+
+VfxKazus
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Kitasatospora;s__Kitasatospora_kazusensis
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Streptomycetaceae;g__Kitasatospora;s__Kitasatospora_mediocidica
+1.000	1.000	1.000	1.000	1.000	1.000	1.000
+

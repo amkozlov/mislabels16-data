@@ -1,0 +1,13 @@
+/bin/bash: module: line 1: syntax error: unexpected end of file
+/bin/bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+ MySQLdb module could not be loaded
+Treeview module could not be loaded
+Traceback (most recent call last):
+  File "/hits/sco/kozlov/mislabels/tax_benchmark/script/mis_tests.py", line 283, in <module>
+    curator(refseq = sys.argv[1], reftax = sys.argv[2], method = sys.argv[3], output = sys.argv[4])
+  File "/hits/sco/kozlov/mislabels/tax_benchmark/script/mis_tests.py", line 203, in curator
+    with open(reftax) as fo:
+IOError: [Errno 2] No such file or directory: '/hits/sco/kozlov/mislabels/paper_v2/sim/full/tax/p1/simfull-p1-t.tax'
+mv: cannot move `submit.sh.o5175603' to `/hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/uclust/t/uclust-p1-t2.log': No such file or directory

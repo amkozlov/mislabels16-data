@@ -1,0 +1,406 @@
+
+
+IMPORTANT WARNING: Sequences UaoAnxif and UaoDolen are exactly identical
+
+
+IMPORTANT WARNING: Sequences UavAngus and UavRubru are exactly identical
+
+
+IMPORTANT WARNING: Sequences UbwConse and UbwHumid are exactly identical
+
+
+IMPORTANT WARNING: Sequences UglAerop and UglStrat are exactly identical
+
+
+IMPORTANT WARNING: Sequences UkkSpe18 and UkkSpe15 are exactly identical
+
+
+IMPORTANT WARNING: Sequences UkuAbort and UkuBCeti are exactly identical
+
+
+IMPORTANT WARNING: Sequences UkuAbort and UkuPinni are exactly identical
+
+
+IMPORTANT WARNING: Sequences UkuAbort and UkuBSuis are exactly identical
+
+
+IMPORTANT WARNING: Sequences UkuMelit and UkuNeoto are exactly identical
+
+
+IMPORTANT WARNING: Sequences UoxSpe16 and UoxSpe15 are exactly identical
+
+
+IMPORTANT WARNING: Sequences UwaAmeri and UwaFredi are exactly identical
+
+
+IMPORTANT WARNING: Sequences UxxElega and UxxRoseo are exactly identical
+
+
+IMPORTANT WARNING: Sequences VdyFaci2 and VdyFaci3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences VoqAbsce and VoqAbsc2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences VoqFarci and VoqFort3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences VoqFarci and VoqSeneg are exactly identical
+
+
+IMPORTANT WARNING: Sequences VoqMucog and VoqPhoca are exactly identical
+
+
+IMPORTANT WARNING: Sequences VoqSpec4 and VoqSeoul are exactly identical
+
+
+IMPORTANT WARNING: Sequences VqjCummi and VqjNSoli are exactly identical
+
+
+IMPORTANT WARNING: Sequences VyqFulv5 and VyqPara2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences WfeMari2 and WfeSaira are exactly identical
+
+
+IMPORTANT WARNING: Sequences WhzAuran and WhzHybri are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyAsiat and VfyRhizo are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyDias2 and VfyGouge are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyDias2 and VfyRutge are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyGeysi and VfyMinut are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyGris6 and VfyMurin are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyPurp2 and VfyViol6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyNiger and VfyOliva are exactly identical
+
+
+IMPORTANT WARNING: Sequences VfyNojir and VfySpor3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences WojSpuma and WojSunch are exactly identical
+
+
+IMPORTANT WARNING: Sequences XanArbor and XanHorto are exactly identical
+
+IMPORTANT WARNING
+Found 32 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+
+A mixed model file with model assignments for undetermined
+columns removed has already been printed to  file ltp123_part.txt.reduced
+An alignment file with sequence duplicates removed has already
+been printed to file ltp123_full.phy.reduced
+
+
+This is RAxML version 8.2.3 released by Alexandros Stamatakis on August 12 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 4665 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 78.81%
+
+RAxML Model Optimization up to an accuracy of 0.100000 log likelihood units
+
+Using 11 distinct models/data partitions with individual per partition branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1820
+Name: cons
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 622
+Name: flanks
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 341
+Name: v1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 643
+Name: v2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 4
+Alignment Patterns: 164
+Name: v3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 5
+Alignment Patterns: 229
+Name: v4
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 6
+Alignment Patterns: 142
+Name: v5
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 7
+Alignment Patterns: 226
+Name: v6
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 8
+Alignment Patterns: 182
+Name: v7
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 9
+Alignment Patterns: 108
+Name: v8
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 10
+Alignment Patterns: 188
+Name: v9
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/hits/sco/kozlov/raxml-sativa/raxmlHPC-PTHREADS-AVX -s ltp123_full.phy -t reftree.nw -q ltp123_part.txt -m GTRGAMMA -n eval -T 16 -f e -M 
+
+
+
+Model parameters (binary file format) written to: /hits/fast/sco/kozlov/mislabels/paper_v2/modopt/ltp123_full/RAxML_binaryModelParameters.eval
+
+
+Overall Time for Tree Evaluation 1244.266382
+Final GAMMA  likelihood: -1890133.929677
+
+Number of free parameters for AIC-TEST(BR-LEN): 262724
+Number of free parameters for AIC-TEST(NO-BR-LEN): 99
+
+
+Model Parameters of Partition 0, Name: cons, Type of Data: DNA
+alpha: 0.492943
+Tree-Length: 493.932794
+rate A <-> C: 1.005228
+rate A <-> G: 3.251953
+rate A <-> T: 1.832788
+rate C <-> G: 0.823789
+rate C <-> T: 5.265970
+rate G <-> T: 1.000000
+
+freq pi(A): 0.248919
+freq pi(C): 0.245041
+freq pi(G): 0.305837
+freq pi(T): 0.200203
+
+Model Parameters of Partition 1, Name: flanks, Type of Data: DNA
+alpha: 0.690257
+Tree-Length: 19676.936798
+rate A <-> C: 0.936021
+rate A <-> G: 2.247229
+rate A <-> T: 1.407441
+rate C <-> G: 0.808166
+rate C <-> T: 3.044529
+rate G <-> T: 1.000000
+
+freq pi(A): 0.246416
+freq pi(C): 0.237545
+freq pi(G): 0.279092
+freq pi(T): 0.236947
+
+Model Parameters of Partition 2, Name: v1, Type of Data: DNA
+alpha: 0.615211
+Tree-Length: 4190.653429
+rate A <-> C: 0.839588
+rate A <-> G: 2.306077
+rate A <-> T: 2.478162
+rate C <-> G: 0.775561
+rate C <-> T: 4.698901
+rate G <-> T: 1.000000
+
+freq pi(A): 0.211742
+freq pi(C): 0.237772
+freq pi(G): 0.313172
+freq pi(T): 0.237314
+
+Model Parameters of Partition 3, Name: v2, Type of Data: DNA
+alpha: 0.515544
+Tree-Length: 1436.473858
+rate A <-> C: 0.595211
+rate A <-> G: 1.968237
+rate A <-> T: 1.256092
+rate C <-> G: 0.689608
+rate C <-> T: 2.803840
+rate G <-> T: 1.000000
+
+freq pi(A): 0.256711
+freq pi(C): 0.223952
+freq pi(G): 0.287941
+freq pi(T): 0.231396
+
+Model Parameters of Partition 4, Name: v3, Type of Data: DNA
+alpha: 0.588777
+Tree-Length: 1728.817084
+rate A <-> C: 0.712546
+rate A <-> G: 1.312311
+rate A <-> T: 0.877847
+rate C <-> G: 0.760756
+rate C <-> T: 3.185795
+rate G <-> T: 1.000000
+
+freq pi(A): 0.308898
+freq pi(C): 0.202098
+freq pi(G): 0.323700
+freq pi(T): 0.165304
+
+Model Parameters of Partition 5, Name: v4, Type of Data: DNA
+alpha: 0.611350
+Tree-Length: 674.153359
+rate A <-> C: 0.864312
+rate A <-> G: 3.039616
+rate A <-> T: 1.666812
+rate C <-> G: 0.541040
+rate C <-> T: 5.148506
+rate G <-> T: 1.000000
+
+freq pi(A): 0.229195
+freq pi(C): 0.190792
+freq pi(G): 0.351090
+freq pi(T): 0.228923
+
+Model Parameters of Partition 6, Name: v5, Type of Data: DNA
+alpha: 0.518510
+Tree-Length: 890.118040
+rate A <-> C: 1.438027
+rate A <-> G: 3.919971
+rate A <-> T: 3.977935
+rate C <-> G: 0.680064
+rate C <-> T: 5.122984
+rate G <-> T: 1.000000
+
+freq pi(A): 0.182615
+freq pi(C): 0.262006
+freq pi(G): 0.320783
+freq pi(T): 0.234596
+
+Model Parameters of Partition 7, Name: v6, Type of Data: DNA
+alpha: 0.581793
+Tree-Length: 1273.032439
+rate A <-> C: 0.853702
+rate A <-> G: 2.188729
+rate A <-> T: 1.178646
+rate C <-> G: 0.917140
+rate C <-> T: 3.404351
+rate G <-> T: 1.000000
+
+freq pi(A): 0.233839
+freq pi(C): 0.219614
+freq pi(G): 0.313384
+freq pi(T): 0.233164
+
+Model Parameters of Partition 8, Name: v7, Type of Data: DNA
+alpha: 0.506491
+Tree-Length: 777.668611
+rate A <-> C: 1.069492
+rate A <-> G: 2.646652
+rate A <-> T: 1.427301
+rate C <-> G: 0.675959
+rate C <-> T: 4.287076
+rate G <-> T: 1.000000
+
+freq pi(A): 0.250931
+freq pi(C): 0.225411
+freq pi(G): 0.346956
+freq pi(T): 0.176702
+
+Model Parameters of Partition 9, Name: v8, Type of Data: DNA
+alpha: 0.516989
+Tree-Length: 524.264488
+rate A <-> C: 0.678098
+rate A <-> G: 1.952932
+rate A <-> T: 1.368063
+rate C <-> G: 0.512461
+rate C <-> T: 3.665476
+rate G <-> T: 1.000000
+
+freq pi(A): 0.257051
+freq pi(C): 0.262650
+freq pi(G): 0.302785
+freq pi(T): 0.177515
+
+Model Parameters of Partition 10, Name: v9, Type of Data: DNA
+alpha: 0.408586
+Tree-Length: 6484.151114
+rate A <-> C: 0.639677
+rate A <-> G: 1.867046
+rate A <-> T: 1.042457
+rate C <-> G: 0.515530
+rate C <-> T: 3.715013
+rate G <-> T: 1.000000
+
+freq pi(A): 0.257896
+freq pi(C): 0.239111
+freq pi(G): 0.294755
+freq pi(T): 0.208238
+
+Final tree written to:                 /hits/fast/sco/kozlov/mislabels/paper_v2/modopt/ltp123_full/RAxML_result.eval
+Execution Log File written to:         /hits/fast/sco/kozlov/mislabels/paper_v2/modopt/ltp123_full/RAxML_log.eval

@@ -1,0 +1,121 @@
+SATIVA v0.9-41-gcd9a623, released on 2016-01-28. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+SATIVA was called as follows:
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.py -t /gpfs/work/pr58te/di68joy/mislabels/data/rdp11full_type/sativa_in.tax -s /gpfs/work/pr58te/di68joy/mislabels/data/rdp11full_type/sativa_in.phy -x BAC -c /gpfs/work/pr58te/di68joy/mislabels/soft/sativa/sativa.cfg -o /gpfs/work/pr58te/di68joy/mislabels/jobs/rdp11full_type -n rdp11full_type-thorough-N10 -tmpdir /gpfs/work/pr58te/di68joy/mislabels/tmp -T 28 -v -N 10
+
+Mislabels search is running with the following parameters:
+ Alignment:                        /gpfs/work/pr58te/di68joy/mislabels/data/rdp11full_type/sativa_in.phy
+ Taxonomy:                         /gpfs/work/pr58te/di68joy/mislabels/data/rdp11full_type/sativa_in.tax
+ Output directory:                 /gpfs/work/pr58te/di68joy/mislabels/jobs/rdp11full_type
+ Job name / output files prefix:   rdp11full_type-thorough-N10
+ Model of rate heterogeneity:      AUTO
+ Confidence cut-off:               0.000000
+ Number of threads:                28
+
+*** STEP 1: Building the reference tree using provided alignment and taxonomic annotations ***
+
+=> Loading taxonomy from file: /gpfs/work/pr58te/di68joy/mislabels/data/rdp11full_type/sativa_in.tax ...
+
+==> Loading reference alignment from file: /gpfs/work/pr58te/di68joy/mislabels/data/rdp11full_type/sativa_in.phy ...
+
+Guessing input format: not fasta
+Guessing input format: not phylip_relaxed
+===> Validating taxonomy and alignment ...
+
+NOTE: Following sequences are identical: VfyDias2, VfyGouge, VfyRutge
+NOTE: Following sequences are identical: VfyPurp2, VfyViol6
+NOTE: Following sequences are identical: UaoAnxif, UaoDolen
+NOTE: Following sequences are identical: VfyGris6, VfyMurin
+NOTE: Following sequences are identical: VfyNiger, VfyOliva
+NOTE: Following sequences are identical: UwaAmeri, UwaFredi
+NOTE: Following sequences are identical: VoqMucog, VoqPhoca
+NOTE: Following sequences are identical: UglAerop, UglStrat
+NOTE: Following sequences are identical: UbwConse, UbwHumid
+NOTE: Following sequences are identical: WojSpuma, WojSunch
+NOTE: Following sequences are identical: VfyAsiat, VfyRhizo
+NOTE: Following sequences are identical: XanArbor, XanHorto
+NOTE: Following sequences are identical: UkuAbort, UkuBCeti, UkuPinni, UkuBSuis
+NOTE: Following sequences are identical: WfeMari2, WfeSaira
+NOTE: Following sequences are identical: VqjCummi, VqjNSoli
+NOTE: Following sequences are identical: VdyFaci2, VdyFaci3
+NOTE: Following sequences are identical: VoqFarci, VoqFort3, VoqSeneg
+NOTE: Following sequences are identical: UkkSpe18, UkkSpe15
+NOTE: Following sequences are identical: UxxElega, UxxRoseo
+NOTE: Following sequences are identical: VfyGeysi, VfyMinut
+NOTE: Following sequences are identical: VyqFulv5, VyqPara2
+NOTE: Following sequences are identical: UkuMelit, UkuNeoto
+NOTE: Following sequences are identical: VoqAbsce, VoqAbsc2
+NOTE: Following sequences are identical: VfyNojir, VfySpor3
+NOTE: Following sequences are identical: UoxSpe16, UoxSpe15
+NOTE: Following sequences are identical: WhzAuran, WhzHybri
+NOTE: Following sequences are identical: VoqSpec4, VoqSeoul
+NOTE: Following sequences are identical: UavAngus, UavRubru
+
+NOTE: Found 32 sequence duplicates
+====> Building a multifurcating tree from taxonomy with 11868 seqs ...
+
+Total nodes in resulting tree: 11868
+=====> Building the reference alignment ...
+
+======> Saving the outgroup for later re-rooting ...
+
+Outgroup for rooting was saved to: /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10_outgr.tre, outgroup size: 445
+=======> Resolving multifurcation: choosing the best topology from 10 independent RAxML runs ...
+
+
+Reducing the alignment: 
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702 -T 28 -f c -s /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10_matrix.afa --no-dup-check -m GTRCAT -n reduce --verbose -p 13332
+
+
+Constrained ML inference: 
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10_matrix.afa.reduced -g /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10_mfu.tre --no-seq-check -N 10 -m GTRCAT -n mfresolv_rdp11full_type-thorough-N10 --verbose -p 326
+
+
+CAT-based logLH of the reference tree: -2046698.387157
+
+========> Calling RAxML-EPA to obtain branch labels ...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10_lblq.fa -t /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10_bfu.tre --no-seq-check -f y --epa-accumulated-threshold 0.999 -G 0.0421300977418 -R /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10.opt -m GTRCAT -n epalbl_rdp11full_type-thorough-N10 --verbose -p 26407
+
+=========> Post-processing the EPA tree (re-rooting, taxonomic labeling etc.) ...
+
+
+==========> Checking branch labels ...
+shared rank names before training: set([])
+shared rank names after  training: set(['-'])
+
+==========> Saving the reference JSON file: /gpfs/work/pr58te/di68joy/mislabels/jobs/rdp11full_type/rdp11full_type-thorough-N10.refjson
+
+Calculating the speciation rate...
+
+Writing down the reference file...
+
+*** STEP 2: Searching for mislabels ***
+
+Running the leave-one-sequence-out test...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10.refaln -t /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/ref_rdp11full_type-thorough-N10.tre --no-seq-check -f O --epa-accumulated-threshold 0.999 -G 0.0421300977418 -R /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10.opt -m GTRCAT -n l1out_seq_rdp11full_type-thorough-N10 --verbose -p 13332
+
+Leave-one-out test identified 237 suspicious sequences; running final EPA test to check them...
+
+/gpfs/work/pr58te/di68joy/mislabels/soft/sativa/raxml//run_raxml.sh -w /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702 -T 28 -s /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/rdp11full_type-thorough-N10.refaln -t /gpfs/work/pr58te/di68joy/mislabels/tmp/rdp11full_type-thorough-N10_1454096121702/final_ref_rdp11full_type-thorough-N10.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.0421300977418 -m GTRCAT -n final_epa_rdp11full_type-thorough-N10 --verbose -p 326
+
+Mislabeled sequences by rank:
+Phylum      :	6
+Class       :	4
+Order       :	22
+Suborder    :	3
+Family      :	38
+Genus       :	122
+
+Total mislabels: 195 / 1.64 %
+
+Results were saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/rdp11full_type/rdp11full_type-thorough-N10.mis
+Execution log was saved to: /gpfs/work/pr58te/di68joy/mislabels/jobs/rdp11full_type/rdp11full_type-thorough-N10.log
+
+Analysis completed successfully, elapsed time: 149246 seconds (126565s reftree, 22677s leave-one-out)
+

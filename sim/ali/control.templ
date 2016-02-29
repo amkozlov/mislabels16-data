@@ -1,0 +1,77 @@
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//  INDELible V1.03 control file - NUCLEOTIDE.txt                                  //
+//                                                                                 //
+//      An introduction to different nucleotide substitution models.               //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+  /* Again - the control file must begin with the [TYPE] statement */
+
+[TYPE] NUCLEOTIDE 2	//  nucleotide simulation using algorithm from method 2.
+
+  /* Many different models can be defined in a single control file */
+
+<<MODELS>>
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+/*
+     All nucleotide substitution models (apart from UNREST) are specified in 
+     relation to this general substitution rate matrix:
+                                                                               
+                                    TO                                      
+               ---------------------------------------------            
+         FROM ||     T    |    C     |    A     |    G                  
+        ------++----------+----------+----------+-----------            
+          T   ||     -    |  a Pi_C  |  b Pi_A  |  c Pi_G                
+          C   ||  a Pi_T  |     -    |  d Pi_A  |  e Pi_G                
+          A   ||  b Pi_T  |  d Pi_C  |     -    |  f Pi_G                
+          G   ||  c Pi_T  |  e Pi_C  |  f Pi_A  |     -                   
+	
+     where Pi_T, Pi_C, Pi_A, Pi_G are the stationary base frequencies.
+
+     The different models are specified using the commands listed below in blue 
+     (the names correspond to those used by Modeltest):
+
+       
+    +-----+----------------------------------+----------------------------------+
+    |  N  |    Usage                         |  Notes                           |
+    +-----+----------------------------------+----------------------------------+
+    |  0  |   [submodel] JC                  |  a=b=c=d=e=f=1                   |
+    |  1  |   [submodel] F81                 |  a=b=c=d=e=f=1                   |
+    +-----+----------------------------------+----------------------------------+
+    |  2  |   [submodel] K80    a            |  a=f=kappa, b=c=d=e=1            |
+    |  3  |   [submodel] HKY    a            |  a=f=kappa, b=c=d=e=1            |
+    +-----+----------------------------------+----------------------------------+
+    |  4  |   [submodel] TrNef  a f          |  a=kappa1, f=kappa2, b=c=d=e=1   |
+    |  5  |   [submodel] TrN    a f          |  a=kappa1, f=kappa2, b=c=d=e=1   |
+    +-----+----------------------------------+----------------------------------+
+    |  6  |   [submodel] K81    b c          |  b=e, c=d, a=f=1                 |
+    |  7  |   [submodel] K81uf  a b c d e    |  b=e, c=d, a=f=1                 |
+    +-----+----------------------------------+----------------------------------+
+    |  8  |   [submodel] TIMef  a b c        |  b=e, c=d, f=1                   |
+    |  9  |   [submodel] TIM    a b c        |  b=e, c=d, f=1                   |
+    +-----+----------------------------------+----------------------------------+
+    |  10 |   [submodel] TVMef  b c d e      |  a=f=1                           |
+    |  11 |   [submodel] TVM    b c d e      |  a=f=1                           |
+    +-----+----------------------------------+----------------------------------+
+    |  12 |   [submodel] SYM    a b c d e    |  f=1                             |
+    |  13 |   [submodel] GTR    a b c d e    |  f=1                             |
+    +-----+----------------------------------+----------------------------------+
+    |  14 |   [submodel] F84ef  k            |  b=c=d=e=1, a=(1+k/Y), f=(1+k/R) |
+    |  15 |   [submodel] F84    k            |  b=c=d=e=1, a=(1+k/Y), f=(1+k/R) |
+    |     |                                  |  N.B. Y=pi_T+pi_C , R=pi_A+pi_G  | 
+    +-----+----------------------------------+--------------------------+-------+
+    |  16 |   [submodel] UNREST TC TA TG CT CA CG AT AC AG GT GC        |  GA=1 |
+    +-----+-------------------------------------------------------------+-------+
+
+    N.B. N can be substituted for the model name.  
+    e.g. [submodel] 0 instead of [submodel] JC 
+
+     For the models with even N (0-16) the base frequencies are set automatically.
+
+     For models with odd N (1-15) the base frequencies are given using the command: 
+
+       [statefreq] Pi_T Pi_C Pi_A Pi_G
+*/ 

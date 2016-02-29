@@ -1,0 +1,43 @@
+/bin/bash: module: line 1: syntax error: unexpected end of file
+/bin/bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+SATIVA v0.9-34-ge8c497c, released on 2015-11-26. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+SATIVA was called as follows:
+
+/hits/sco/kozlov/sativa/sativa.py -r /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t1/sativa-p1-t1-1.refjson -j /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t1/sativa-p1-t1-1.l1out_seq.jplace -c /hits/sco/kozlov/sativa/sativa.cfg -o /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t1 -n sativa5-p1-t1-1 -tmpdir /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp -m thorough -N 1 -v -T 16
+
+Mislabels search is running with the following parameters:
+ Reference:                        /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t1/sativa-p1-t1-1.refjson
+ EPA jplace file:                  /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t1/sativa-p1-t1-1.l1out_seq.jplace
+ Output directory:                 /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t1
+ Job name / output files prefix:   sativa5-p1-t1-1
+ Model of rate heterogeneity:      AUTO
+ Number of threads:                16
+
+Running the leave-one-sequence-out test...
+
+Loaded 11939 placements from /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa/t1/sativa-p1-t1-1.l1out_seq.jplace
+
+Leave-one-out test identified 185 suspicious sequences; running final EPA test to check them...
+
+/hits/sco/kozlov/sativa/raxml//run_raxml.sh -w /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p1-t1-1_1448636994182 -T 16 -s /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p1-t1-1_1448636994182/sativa5-p1-t1-1.refaln -t /hits/sco/kozlov/mislabels/paper_v2/sim/full/tmp/sativa5-p1-t1-1_1448636994182/final_ref_sativa5-p1-t1-1.tre --no-seq-check -f v --epa-accumulated-threshold 0.999 -G 0.0418795544015 -m GTRCAT -n final_epa_sativa5-p1-t1-1 --no-bfgs --verbose -p 13332
+
+Mislabeled sequences by rank:
+Phylum      :	5
+Class       :	7
+Order       :	15
+Suborder    :	3
+Family      :	39
+Genus       :	46
+Species     :	24
+
+Total mislabels: 139 / 1.16 %
+
+Results were saved to: /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t1/sativa5-p1-t1-1.mis
+Execution log was saved to: /hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/sativa5/t1/sativa5-p1-t1-1.log
+
+Analysis completed successfully, elapsed time: 426 seconds (0s reftree, 422s leave-one-out)
+

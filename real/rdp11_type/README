@@ -1,0 +1,14 @@
+RDP version used: 11.4 (released on 26.05.2015)
+
+Scripts in this directory will extract taxonomy and RDP<->NCBI mapping
+from annotated FASTA files, which can be downloaded from:
+
+  http://rdp.cme.msu.edu/download/current_Bacteria_unaligned.gb.gz
+  http://rdp.cme.msu.edu/download/current_Bacteria_unaligned.fa.gz
+
+  http://rdp.cme.msu.edu/download/current_Archaea_unaligned.fa.gz
+  http://rdp.cme.msu.edu/download/current_Archaea_unaligned.gb.gz
+
+To re-generate SATIVA-formatted taxonomy file, download&unzip the above files and run:
+
+  $ ./gettax.sh

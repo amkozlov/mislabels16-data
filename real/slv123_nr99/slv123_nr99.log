@@ -1,0 +1,42 @@
+SATIVA v0.9-40-g6c67a76, released on 2016-01-12. Last version: https://github.com/amkozlov/sativa 
+By A.Kozlov and J.Zhang, the Exelixis Lab. Based on RAxML 8.2.3 by A.Stamatakis.
+
+SATIVA was called as follows:
+
+/hits/sco/kozlov/sativa/sativa.py -r /hits/sco/kozlov/mislabels/paper_v2/real/slv123_nr99/slv123_nr99-fast-genus1.refjson -j jplace_genus -c /hits/sco/kozlov/sativa/sativa.cfg -o /hits/sco/kozlov/mislabels/paper_v2/real/slv123_nr99 -n slv123_nr99-fast-genus1-final -tmpdir /hits/sco/kozlov/mislabels/paper_v2/real/tmp -m fast -v -T 32 -debug
+
+Mislabels search is running with the following parameters:
+ Reference:                        /hits/sco/kozlov/mislabels/paper_v2/real/slv123_nr99/slv123_nr99-fast-genus1.refjson
+ EPA jplace file:                  jplace_genus
+ Output directory:                 /hits/sco/kozlov/mislabels/paper_v2/real/slv123_nr99
+ Job name / output files prefix:   slv123_nr99-fast-genus1-final
+ Model of rate heterogeneity:      AUTO
+ Confidence cut-off:               0.000000
+ Number of threads:                32
+
+Running in DEBUG mode, temp files will be saved to: /hits/sco/kozlov/mislabels/paper_v2/real/tmp/slv123_nr99-fast-genus1-final_1453574140628
+
+Running the leave-one-sequence-out test...
+
+Loaded 536224 placements from jplace_genus/*.jplace
+
+Leave-one-out test identified 12080 suspicious sequences; running final EPA test to check them...
+
+Loaded 12080 final epa placements from final_jplace_genus/*.jplace
+
+Mislabeled sequences by rank:
+Kingdom     :	1
+Phylum      :	664
+Class       :	473
+Order       :	1210
+Suborder    :	2
+Family      :	1446
+Genus       :	6138
+
+Total mislabels: 9934 / 1.85 %
+
+Results were saved to: /hits/sco/kozlov/mislabels/paper_v2/real/slv123_nr99/slv123_nr99-fast-genus1-final.mis
+Execution log was saved to: /hits/sco/kozlov/mislabels/paper_v2/real/slv123_nr99/slv123_nr99-fast-genus1-final.log
+
+Analysis completed successfully, elapsed time: 1023 seconds (0s reftree, 808s leave-one-out)
+

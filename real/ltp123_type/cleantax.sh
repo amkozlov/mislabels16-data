@@ -1,0 +1,1 @@
+sed s/"Unclassified "//g sativa_in.tax > sativa_in.tax.cleaned

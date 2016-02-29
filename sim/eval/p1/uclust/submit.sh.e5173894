@@ -1,0 +1,7 @@
+/bin/bash: module: line 1: syntax error: unexpected end of file
+/bin/bash: error importing function definition for `BASH_FUNC_module'
+bash: module: line 1: syntax error: unexpected end of file
+bash: error importing function definition for `BASH_FUNC_module'
+ MySQLdb module could not be loaded
+Treeview module could not be loaded
+mv: cannot move `submit.sh.o5173894' to `/hits/sco/kozlov/mislabels/paper_v2/sim/full/mis/p1/uclust/t2/uclust-p1-t22.log': Device or resource busy
